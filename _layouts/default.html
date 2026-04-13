@@ -1,0 +1,58 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+  <title>
+    {% if page.title %} {{page.title}} – {% endif %}
+    {{site.title}}{% if site.suffix %}, {{site.suffix}}{% endif %}
+    </title>
+  {% include meta.html %}
+  <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+      </script>
+  <![endif]-->
+  <link rel="stylesheet"
+        type="text/css"
+        href="{{site.baseurl}}/style.css"/>
+  <link rel="alternate"
+        type="application/rss+xml"
+        title="{{site.title}}"
+        href="{{site.baseurl}}/feed.xml"/>
+  <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+  {% include scripts.html %}
+  <!-- Originally created with Jekyll Now -
+       http://github.com/barryclark/jekyll-now;
+       heavily modified by hand since. -->
+  </head>
+
+<body>
+  <div class="default-masthead">
+    <div class="default-banner-container">
+      <a href="#main" class="skip-link">Skip to main content</a>
+      <div class="default-banner">
+        <p>
+          <span style="font-weight: 700">NEURO</span><span style="font-weight: 400">HACK</span><span style="font-weight: 100">ADEMY</span>
+        </div>
+      </div>
+    <header class="clearfix" id="pageHeader">
+      {% include navbar.html %}
+      </header>
+    </div>
+  <main>
+    <div class="container-wrapper">
+      <div id="main" role="main" class="container">
+        {{content}}
+        </div>
+      </div>
+    </main>
+
+  {% include footer.html %}
+
+  {% include analytics.html %}
+  </body>
+
+</html>

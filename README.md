@@ -1,13 +1,8 @@
-Grayscale Jekyll theme
-=========================
+# Neurohackademy Website
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+This repository contains the website for the
+[Neurohackademy](https://neurohackademy.org/), a 2-week annual summer workshop
+on data science and neuroimaging.
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+The website is built using jekyll.
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
-
-=========
-For more details, read the [documentation](http://jekyllrb.com/)

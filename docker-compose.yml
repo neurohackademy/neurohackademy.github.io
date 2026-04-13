@@ -1,0 +1,14 @@
+services:
+  server:
+    #image: bretfisher/jekyll-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:${JEKYLL_PORT:-4000}:${JEKYLL_PORT:-4000}"
+    volumes:
+      - "$PWD:/site"
+    labels:
+      - "jekyll"
+    stdin_open: true
+    tty: true

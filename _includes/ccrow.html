@@ -1,0 +1,48 @@
+<!-- course content row -->
+{% assign tmpTag="cctag" | append: "-"
+    | append: include.year | append: include.week 
+    | append: include.day | include.time
+    | append: "-" | append: include.speakers
+    | append: "-" | append: include.title
+    | replace: ",", "" | replace: " ", "" | replace: ":", "" %}
+<div class="cc-col" id="col-{{tmpTag}}">
+  <div class="cc-row">
+    <p class="cc-year">{{include.year}}</p>
+    <div class="cc-weekday">
+      <p class="cc-week">
+        {% if include.week == 'week1' %}1st{% else %}2nd{% endif %}
+        </p>
+      <p class="cc-day">{{include.day | slice: 0, 3}}</p>
+      </div>
+    <p class="cc-time">{{include.time}}</p>
+    {% if include.youtube_url %}
+      <div class="cc-click" id="click-{{tmpTag}}" tabindex="0">
+        <p class="cc-playarrow">&#x25B6;</p>
+        </div>
+    {% else %}
+      <p class="cc-noarrow">&nbsp;</p>
+      {% endif %}
+    <div class="cc-othercol">
+      <p class="cc-title">{{include.title}}</p>
+      <p class="cc-author">{{include.speakers}}</p>
+      </div>
+    </div>
+  <div class="cc-video" id="div-{{tmpTag}}">
+    {% if include.youtube_url %}
+      <iframe src="{{include.youtube_url}}"
+              title="YouTube Video Player"
+              id="iframe-{{tmpTag}}"
+              style="width: 100%; height: 100%;"
+              tabindex="-1"
+              frameborder="0"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+        </iframe>
+    {% else %}
+      No video available.
+      {% endif%}
+    </div>
+  </div>
+
+<!-- The script to expand/contract the  -->

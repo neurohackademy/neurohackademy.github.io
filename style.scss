@@ -1,0 +1,912 @@
+---
+---
+
+/*
+ * IMPORTS
+ */
+
+@use "{{ site.theme }}" as *;
+
+@use "reset" as *;
+@use "variables" as *;
+
+@import url('https://fonts.googleapis.com');
+
+/* Syntax highlighting @import is at the bottom of this file */
+
+
+/* Website Pallet
+ */
+:root {
+    --palette-cream: #FFFCF3;
+    --palette-gold: #85754D;
+    --palette-purple: #341954;
+    --palette-lavendar: #A187CF;
+    --palette-darkgray: #5A5A5A;
+    --cap-bg-color: #85754D;
+    --cap-fg-color: #FFFCF3;
+    --bg-color: #CACACA;
+    --mg-color: #FFFCF3;
+    --fg-color: #341954;
+    --menu-bg-color: #341954;
+    --menu-fg-color: #FFFCF3;
+    --border-color: #A187CF;
+    --masthead-height: 128px;
+    --footer-height: 160px;
+}
+
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: var(--bg-color);
+    font: 20px $helveticaNeue;
+    color: var(--fg-color);
+    font-weight: 250;
+    text-align: justify;
+}
+body b, body strong {
+    color: var(--fg-color);
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $helveticaNeue;
+    color: var(--fg-color);
+
+    line-height: 1.7;
+    margin: 3px 0 5px 0;
+    padding: 0.5em 0px;
+    text-align: left;
+
+    @include mobile {
+        line-height: 1.4;
+    }
+}
+
+h1 {
+    margin: 10px 0 10px 0;
+    font-size: 48px;
+    font-weight: 600;
+    a {
+        color: inherit;
+    }
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 350;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+  color: var(--fg-color);
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+  &:hover, &:active {
+      /* color: $blue; */
+      text-decoration: underline;
+  }
+  font: $helveticaNeue;
+}
+
+ul, ol {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+    margin: 0;
+}
+
+ul ul, ol ul {
+    list-style-type: circle;
+}
+
+em, i {
+    font-style: italic;
+}
+
+strong, b {
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Fixes images in popup boxes from Google Translate */
+.gmnoprint img {
+    max-width: none;
+}
+
+.date {
+    font-style: italic;
+    color: $gray;
+}
+
+/* Specify the color of the selection */
+::-moz-selection {
+    color: $black;
+    background: $lightGray;
+}
+::selection {
+    color: $black;
+    background: $lightGray;
+}
+
+/* Nicolas Gallagher's micro clearfix hack
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+
+/*
+ * .splash stuff
+ */
+
+.splash-masthead {
+    height: calc(100vh + var(--masthead-height));
+    width: 100%;
+    background-color: var(--cap-bg-color);
+    color: var(--cap-fg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* sticky header */
+    /*
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    */
+}
+.splash-banner-container {
+    width: 940px;
+    max-width: 100%;
+    height: 100vh;
+}
+.splash-banner-logotext {
+    color: var(--cap-fg-color);
+    font-size: 56px;
+    width: 100%;
+    max-width: 940px;
+    z-index: 101;
+    height: 100%;
+    margin: 0;
+    float: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+.splash-banner {
+    background-image: url('{{site.baseurl}}/{{site.imgpath}}/nh-brain-gold.png');
+    background-repeat: no-repeat;
+    background-size: 400px; 
+    background-position: 100% 50%;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    position: relative;
+    width: 100%;
+    max-width: 940px;
+    z-index: 101;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    transition: background-size 0.3s ease-out;
+}
+.splash-text {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 250;
+}
+.topanchor {
+    scroll-margin-top: 40px;
+    width: 1px;
+    height: 1px;
+    visibility: hidden; 
+}
+.splash-instructors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.splash-instructor-card {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+.splash-instructor-card-photo {
+    height: 200px;
+    max-width: 150px;
+    overflow: hidden;
+    border: 2px solid var(--border-color);
+}
+.splash-instructor-card-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/*
+ * default layout masthead stuff
+ */
+
+.default-masthead {
+    margin-bottom: 0px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 2px solid var(--border-color);
+    text-align: center;
+    float: center;
+    font-family: $helveticaNeue;
+    font-size: 20pt;
+    background-color: var(--cap-bg-color);
+    /* sticky header */
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    height: var(--masthead-height);
+}
+.default-banner-container {
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default-banner {
+    background-image: url('{{site.baseurl}}/{{site.imgpath}}/nh-brain-gold.png');
+    background-repeat: no-repeat;
+    background-size: 400px; 
+    background-position: 100% 50%;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: var(--cap-fg-color);
+    font-size: 56px;
+    width: 100%;
+    max-width: 940px;
+    z-index: 101;
+    height: 100%;
+    float: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+/*
+ * The main page content container.
+ */
+
+.container-wrapper {
+    width: 100%;
+    min-height: calc(100vh - var(--masthead-height) - var(--footer-height));
+    display: flex;
+    justify-content: center;
+} 
+.container {
+    background: var(--mg-color);
+    border-left: 4px solid var(--border-color);
+    border-right: 4px solid var(--border-color);
+    width: 100%;
+    max-width: 940px;
+    padding: 20px;
+}
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip-link:focus {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: var(--cap-bg-color);
+    color: var(--cap-fg-color);
+    z-index: 1000;
+    font-size: 16px;
+    text-align: left;
+    left: 0;
+    top: 0;
+}
+
+/*
+ * Header and nav stuff
+ */
+
+header {
+    width: 100%;
+}
+
+nav {
+    font-family: $helveticaNeue;
+    font-size: 20pt;
+    background-color: var(--menu-bg-color);
+    color: var(--menu-fg-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+    @include mobile {
+        float: none;
+        margin-top: 0px;
+        display: block;
+        font-size: 16px;
+    }
+    
+    a {
+        margin-left: 20px;
+        margin-right: 20px;
+        color: var(--menu-fg-color);
+        text-align: center;
+        font-weight: 300;
+        font-size: 18pt;
+        letter-spacing: 1px;
+        vertical-align: middle;
+        
+        @include mobile {
+            margin: 0 15px;
+        }
+    }
+}
+
+
+/*
+ * The content page / event and search stuff
+ */
+
+.cc-year-div {
+    width: 100%;
+}
+.cc-week-div {
+    width: 100%;
+}
+.cc-day-div {
+    width: 100%;
+}
+.cc-year-h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.cc-week-h3 {
+  margin-top: 8px;
+  padding-top: 8px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.cc-day-h4 {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+.cc-sel-maindiv {
+  margin: 8px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.cc-sel-rowlbl {
+    margin: 8px 16px;
+}
+.cc-sel-optsdiv {
+  margin: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.cc-sel-checkbox-label {
+    margin: 16px; 
+    width: 80px;
+    white-space: nowrap;
+}
+.cc-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cc-col {
+  border-top: 1px solid var(--fg-color);
+  border-bottom: 1px solid var(--fg-color);
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cc-row {
+  display: flex;
+  font-size: 18px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.cc-year {
+  margin: 0 8px;
+  height: 64px;
+  width: 50px;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+}
+.cc-weekday {
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  min-width: 40px;
+  height: 64px;
+}
+.cc-week {
+  margin: 0;
+  height: 24px;
+  width: 100%;
+  text-align: center;
+}
+.cc-day {
+  margin: 0;
+  height: 24px;
+  width: 100%;
+  text-align: center;
+}
+.cc-time {
+  margin: 0 8px;
+  width: 80px;
+  min-width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+}
+.cc-click {
+  margin: 0 8px;
+  padding: 0;
+  border: 0;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cc-click.cc-open .cc-playarrow {
+  transform: rotate(90deg);
+}
+.cc-playarrow {
+  height: 72px;
+  width: 72px;
+  min-width: 72px;
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cc-noarrow {
+  height: 72px;
+  width: 72px;
+  min-width: 72px;
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cc-othercol {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 4px;
+  width: 100%;
+}
+.cc-title {
+  width: 100%;
+  margin: 6px 6px;
+  font-weight: 500;
+  font-size: 18px !important;
+}
+.cc-author {
+  width: 100%;
+  margin: 6px 6px;
+  font-style: italic;
+}
+.cc-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 5px;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out, opacity 0.3s ease-out;
+}
+.cc-video.cc-video-active {
+    max-height: 530px;
+    opacity: 1;
+}
+.cc-a {
+}
+
+
+/*
+ * .main
+ */
+
+.posts > .post {
+  padding-bottom: 0;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .read-more {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+}
+
+.footer {
+  height: 160px;
+  width: 100%;
+  margin-top: 0px;
+  border-top: 3px solid var(--border-bg-color);
+  padding-bottom: 20px;
+  background: var(--menu-bg-color);
+  color: var(--menu-fg-color);
+  font-size: 16px;
+}
+.footer-col {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.footer-row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo-nimh {
+    height: 94px;
+    width: 365px;
+    padding: 0 10px 0 0;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FFFFFF;
+}
+
+/*
+ * People page stuff.
+ */
+.biocard {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.biocard-textdiv {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+.biocard-photodiv {
+    flex-grow: 0;
+    min-width: 275px;
+    height: 350px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.biocard-photodiv img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid var(--border-color);
+}
+.biocard-chunk {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+}
+.biocard-chunk h1 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1em;
+}
+.biocard-chunk h2 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1em;
+}
+.biocard-chunk p {
+    margin: 0px;
+    padding: 0px;
+}
+.biocard-name {
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 3px;
+}
+.biocard-pronouns {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 30px;
+    text-align: left;
+}
+.biocard-org {
+    font-size: 40px;
+    font-weight: 350;
+    text-align: left;
+}
+.biocard-div {
+    font-size: 40px;
+    font-weight: 350;
+    text-align: left;
+}
+.biocard-links {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-contents: left;
+}
+.biocard-link {
+    font-size: 28px;
+    margin: 0 5px;
+}
+.biocard-small .biocard-photodiv {
+    flex-grow: 0;
+    min-width: 275px;
+    height: 200px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.biocard-small .biocard-textdiv {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+.biocard-small .biocard-name {
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.biocard-small .biocard-pronouns {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.biocard-small .biocard-org {
+    font-size: 30px;
+    font-weight: 250;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.biocard-small .biocard-div {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 2px;
+}
+.biocard-small .biocard-link {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+
+/* Calendar stuff */
+.week-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.day-col {
+    width: 18%;
+    min-width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex: 1;
+    color: #000000;
+    background: #FFFCF3;
+    padding: 0 5px 0 5px;
+}
+.day-name {
+    color: #341954;
+    font-weight: 450;
+    font-decoration: underline;
+    text-align: center;
+}
+.event-cell {
+    margin: 4px 0 4px 0;
+    border-radius: 15px;
+    padding: 5px 3px 5px 3px;
+    background: #341954;
+    color: #FFFFFF;
+    text-align: center;
+}
+.event-time {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.event-title {
+    margin-left: 6px;
+    margin: 2px 4px 2px 6px;
+    font-size: 14px;
+    a {
+      font-size: 14px;
+    }
+}
+.event-speakers {
+    font-style: italic;
+    font-size: 14px;
+    margin: 2px 4px 2px 6px;
+}
+
+/* Accordion for calendars */
+
+.my-accordion {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  background: none;
+  text-align: left;
+  /*cursor: pointer;*/
+}
+
+.accordion-header:hover,
+.accordion-header:focus {
+  /*background-color: #0056b3;*/
+}
+
+.accordion-panel {
+  padding: 1rem;
+  display: none; /* Hidden by default */
+}
+
+.accordion-panel p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .accordion-header {
+    font-size: 18pt;
+    padding: 0.8rem;
+  }
+  .accordion-panel {
+    padding: 0.8rem;
+  }
+}
+
+
+/* Settled on moving the import of syntax highlighting to the bottom of the CSS
+ * ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+ */
+@import "highlights";
+@import "svg-icons";

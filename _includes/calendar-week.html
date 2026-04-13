@@ -1,0 +1,29 @@
+<!-- An HTML snippet for a calendar consisting of a row of days (M-F) of a
+  single week.
+     
+  The arguments should be events, dictionary whose keys are "Monday",
+  "Tuesday", ... "Friday" and whose values are lists of event dicts in order of
+  appearance. The event dicts should contain title, speakers (a list),
+  youtube_url (which may be null), and time.
+ -->
+
+<div class="week-row">
+  {% for day in include.events %}
+    <div class="day-col">
+      <p class="day-name">{{day[0]}}</p>
+      {% for ev in day[1] %}
+        <div class="event-cell">
+          <p class="event-time">{{ev.time}}</p>
+          <p class="event-title">
+            {% if ev.youtube_url %}<a href="{{ev.youtube_url}}">{% endif %}
+            {{ev.title}}
+            {% if ev.youtube_url %}</a>{% endif %}
+            </p>
+          {% if ev.speakers %}
+            <p class="event-speakers">{{ev.speakers | join: ", "}}</p>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>

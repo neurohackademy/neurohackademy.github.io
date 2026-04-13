@@ -1,0 +1,3905 @@
+'2025':
+  startdate: '2025-01-01'
+  events:
+    week1:
+      Monday:
+      - time: 9:00am
+        title: Welcome to NeuroHackademy!
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/welcome-to-neurohackademy-3/
+        youtube_url: https://www.youtube.com/embed/34lBNb5Z6Js?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 10:30am
+        title: 'Reproducibility in cognitive neuroscience: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-9/
+        youtube_url: https://www.youtube.com/embed/haNjW58rbWM?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 1:30pm
+        title: 'Big Data, Small Data: Considerations for Modeling and Inference in
+          Neuroimaging'
+        speakers:
+        - John Van Horn
+        event_page: https://neurohackademy.org/course/big-data-small-data-considerations-for-modeling-and-inference-in-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/tuccSHg04dQ?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: 'Studying human functional brain networks: two paths to reliability'
+        speakers:
+        - Caterina Gratton
+        event_page: https://neurohackademy.org/course/studying-human-functional-brain-networks-two-paths-to-reliability/
+        youtube_url: https://www.youtube.com/embed/W2TbMfJrwi4?rel=0
+      - time: 5:00pm
+        title: Opening reception and dinner
+        speakers: []
+        event_page: https://neurohackademy.org/course/opening-reception-and-dinner/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: AI-assisted programming
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/ai-assisted-programming-2/
+        youtube_url: https://www.youtube.com/embed/I_kiNmhmAZ4?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 10:30am
+        title: Introduction to programming in Python
+        speakers:
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/introduction-to-programming-in-python-4/
+        youtube_url: https://www.youtube.com/embed/8SkoZzX3tf4?rel=0
+      - time: 10:30am
+        title: Scientific computing in Python
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/scientific-computing-in-python/
+        youtube_url: https://www.youtube.com/embed/jyIe-aIm-3U?rel=0
+      - time: 10:30am
+        title: Designing and implementing Python libraries
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/designing-and-implementing-python-libraries-2/
+        youtube_url: https://www.youtube.com/embed/Kw-Pb7tAkbg?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 1:30pm
+        title: Introduction to version control with git and GitHub
+        speakers:
+        - John Kruper
+        event_page: https://neurohackademy.org/course/introduction-to-version-control-with-git-and-github/
+        youtube_url: https://www.youtube.com/embed/WmduHVg_5kA?rel=0
+      - time: 1:30pm
+        title: Collaboration patterns with git and GitHub
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/collaboration-patterns-with-git-and-github-2/
+        youtube_url: https://www.youtube.com/embed/4Wxnycw3ue4?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Introduction to machine learning (scikit learn)
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-machine-learning-4/
+        youtube_url: https://www.youtube.com/embed/7dODjKDgjAo?rel=0
+      - time: 3:30pm
+        title: Introduction to deep learning (pytorch)
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-deep-learning-pytorch/
+        youtube_url: https://www.youtube.com/embed/FD7KgBmCdws?rel=0
+      Wednesday:
+      - time: 9:00am
+        title: Hands on group projects
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/hands-on-group-projects/
+        youtube_url: https://www.youtube.com/embed/8oHN6mFCPcI?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 10:30am
+        title: Overview of a diffusion imaging pipeline using DIPY
+        speakers:
+        - Serge Koudoro
+        event_page: https://neurohackademy.org/course/overview-of-a-diffusion-imaging-pipeline-using-dipy/
+        youtube_url: https://www.youtube.com/embed/FO3DRNwHAj0?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 1:30pm
+        title: 'Processing neuroimaging data : analytical flexibility curse and blessing
+          and the Nipoppy proposal'
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/processing-neuroimaging-data-analytical-flexibility-curse-and-blessing-and-the-nipoppy-proposal/
+        youtube_url: https://www.youtube.com/embed/UYSF06A7Q1A?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Hands on group projects
+        speakers:
+        - Ariel Rokem
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/hands-on-group-projects-2/
+        youtube_url: null
+      - time: 3:30pm
+        title: Center for Human Neuroscience visit
+        speakers:
+        - John Pyles
+        event_page: https://neurohackademy.org/course/center-for-human-neuroscience-visit/
+        youtube_url: null
+      Thursday:
+      - time: 9:00am
+        title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
+        speakers:
+        - Timothy Brown
+        event_page: https://neurohackademy.org/course/building-a-brain-map-ethical-issues-on-the-frontier-of-neuroscience/
+        youtube_url: https://www.youtube.com/embed/Nql_vSJSnzY?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 10:30am
+        title: 'Principles of science communication: visualization, writing, and speaking'
+        speakers:
+        - Kendrick Kay
+        event_page: https://neurohackademy.org/course/principles-of-science-communication-visualization-writing-and-speaking/
+        youtube_url: https://www.youtube.com/embed/H7qwAtrPgRo?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 1:30pm
+        title: User-friendly web apps to facilitate fMRI design and analysis
+        speakers:
+        - Stephanie Noble
+        event_page: https://neurohackademy.org/course/user-friendly-web-apps-to-facilitate-fmri-design-and-analysis/
+        youtube_url: https://www.youtube.com/embed/tIj9Oig6Ggc?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: 'Panel discussion: careers in neuroimaging and data science'
+        speakers: []
+        event_page: https://neurohackademy.org/course/panel-discussion-careers-in-neuroimaging-and-data-science-2/
+        youtube_url: https://www.youtube.com/embed/zkfwvlnwOvU?rel=0
+      - time: 5:00pm
+        title: Pizza night
+        speakers: []
+        event_page: https://neurohackademy.org/course/pizza-night/
+        youtube_url: null
+      Friday:
+      - time: 9:00am
+        title: Dataset showcase
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/dataset-showcase-2/
+        youtube_url: https://www.youtube.com/embed/ItpBWO7IMpM?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 10:30am
+        title: Nilearn for statistical analysis and machine learning in fMRI
+        speakers:
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/nilearn-for-statistical-analysis-and-machine-learning-in-fmri/
+        youtube_url: https://www.youtube.com/embed/o-B6opDVWeo?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 1:30pm
+        title: Hands on group projects
+        speakers:
+        - Ariel Rokem
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/hands-on-group-projects-3/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: "GitHub Actions: The Scientist\u2019s Automation Toolkit"
+        speakers:
+        - Serge Koudoro
+        event_page: https://neurohackademy.org/course/github-actions-the-scientists-automation-toolkit/
+        youtube_url: https://www.youtube.com/embed/bJ8Jc6yI-mQ?rel=0
+      - time: 3:30pm
+        title: Quality assessment and control of unprocessed anatomical, functional,
+          and diffusion MRI of the human brain using MRIQC
+        speakers:
+        - McKenzie Hagen
+        event_page: https://neurohackademy.org/course/quality-assessment-and-control-of-unprocessed-anatomical-functional-and-diffusion-mri-of-the-human-brain-using-mriqc/
+        youtube_url: https://www.youtube.com/embed/z85a8fiyYLI?rel=0
+      - time: 3:30pm
+        title: Introduction to cloud computing
+        speakers:
+        - Naomi Alterman
+        event_page: https://neurohackademy.org/course/introduction-to-cloud-computing/
+        youtube_url: https://www.youtube.com/embed/-d61xx_5cIU?rel=0
+    week2:
+      Monday:
+      - time: 9:00am
+        title: Hack pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-pitches/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: GitHub workflow for project management
+        speakers:
+        - Anshul Tambay
+        event_page: https://neurohackademy.org/course/github-workflow-for-project-management/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Wednesday:
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 1:30pm
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks-7/
+        youtube_url: https://www.youtube.com/embed/QmIJVvQ7LyM?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Thursday:
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-9/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-6/
+        youtube_url: null
+      - time: 2:00pm
+        title: Project presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations-5/
+        youtube_url: https://www.youtube.com/embed/7Zr7t5F3sSs?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Project presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations-6/
+        youtube_url: https://www.youtube.com/embed/0UB0WUb7XmE?rel=0
+'2024':
+  events:
+    week1:
+      Monday:
+      - time: 9:00am
+        title: Welcome to NeuroHackademy!
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/welcome-to-neurohackademy-2/
+        youtube_url: https://www.youtube.com/embed/FyKajCiLypE?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 10:30am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-8/
+        youtube_url: https://www.youtube.com/embed/Im7FPk9TpYk?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 1:30pm
+        title: Bringing the Brain into Focus through a Science of Data
+        speakers:
+        - John Van Horn
+        event_page: https://neurohackademy.org/course/bringing-the-brain-into-focus-through-a-science-of-data/
+        youtube_url: https://www.youtube.com/embed/evr878WSxLY?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: 'Unleashing the Krakencoder: a multi-modal connectome mapping and fusion
+          tool'
+        speakers:
+        - Amy Kuceyeski
+        event_page: https://neurohackademy.org/course/krakencoder/
+        youtube_url: https://www.youtube.com/embed/6TtUONJyxo8?rel=0
+      - time: 5:00pm
+        title: Welcome reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/welcome-reception-5/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: AI-assisted coding
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/ai-assisted-coding/
+        youtube_url: https://www.youtube.com/embed/5NCV9omx1Hg?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 10:30am
+        title: Designing and implementing Python libraries
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/designing-and-implementing-python-libraries/
+        youtube_url: https://www.youtube.com/embed/S0WpDPOPANs?rel=0
+      - time: 10:30am
+        title: Introduction to programming in Python
+        speakers:
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/introduction-to-programming-in-python-3/
+        youtube_url: https://www.youtube.com/embed/38H5YlgfMtE?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 1:30pm
+        title: Introduction to version control with git
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-version-control-with-git-2/
+        youtube_url: https://www.youtube.com/embed/sTMmrl_98bc?rel=0
+      - time: 1:30pm
+        title: Collaboration patterns with git and GitHub
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/collaboration-patterns-with-git-and-github/
+        youtube_url: https://www.youtube.com/embed/4cPwW7lKnJI?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Reproducibility and the future of qMRI research
+        speakers:
+        - Nikola Stikov
+        event_page: https://neurohackademy.org/course/reproducibility-and-the-future-of-qmri-research/
+        youtube_url: https://www.youtube.com/embed/1fwXzxoM6jI?rel=0
+      Wednesday:
+      - time: 9:00am
+        title: 'Responsible Data Governance for Neuroscience: the role of ethics and
+          the law'
+        speakers:
+        - Damian Eke
+        event_page: https://neurohackademy.org/course/responsible-data-governance-for-neuroscience-the-role-of-ethics-and-the-law-2/
+        youtube_url: https://www.youtube.com/embed/Bq7o79186x4?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 10:30am
+        title: Data visualization in Python
+        speakers:
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/data-visualization-in-python-5/
+        youtube_url: https://www.youtube.com/embed/CZhmwzoyBLQ?rel=0
+      - time: 10:30am
+        title: Docker
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/docker-8/
+        youtube_url: https://www.youtube.com/embed/AAja5pXGo4o?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 1:30pm
+        title: Introduction to machine learning
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-machine-learning-3/
+        youtube_url: https://www.youtube.com/embed/WFdjAu_XHS8?rel=0
+      - time: 1:30pm
+        title: Introduction to deep learning
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-deep-learning-2/
+        youtube_url: https://www.youtube.com/embed/GttmezyPy9M?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Cloud computing
+        speakers:
+        - Naomi Alterman
+        event_page: https://neurohackademy.org/course/cloud-computing-6/
+        youtube_url: https://www.youtube.com/embed/t3vsG1xNjMc?rel=0
+      - time: 3:30pm
+        title: Distributed data sharing
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/distributed-data-sharing/
+        youtube_url: https://www.youtube.com/embed/yOWteaoP7dk?rel=0
+      Thursday:
+      - time: 9:00am
+        title: Canonical response parameterization of event-locked timeseries data
+          and clustering with basis profile curves
+        speakers:
+        - Kai Miller
+        event_page: https://neurohackademy.org/course/human-electrophysiology/
+        youtube_url: https://www.youtube.com/embed/pnq7DsjtZQk?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 10:30am
+        title: Introduction to imaging genetics
+        speakers:
+        - Jennifer Forsyth
+        event_page: https://neurohackademy.org/course/introduction-to-imaging-genetics/
+        youtube_url: https://www.youtube.com/embed/4FLp4usPh3Y?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 1:30pm
+        title: Statistical and sociological components of reproducibility
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/statistical-and-sociological-components-of-reproducibility-2/
+        youtube_url: https://www.youtube.com/embed/qyRKj7tm9vw?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: 'Panel discussion: careers in neuroimaging and data science'
+        speakers: []
+        event_page: https://neurohackademy.org/course/panel-discussion-careers-in-neuroimaging-and-data-science/
+        youtube_url: https://www.youtube.com/embed/USuy3pZJewA?rel=0
+      Friday:
+      - time: 9:00am
+        title: Working with multimodal data in the Brain Imaging Data Structure
+        speakers:
+        - Dora Hermes
+        event_page: https://neurohackademy.org/course/working-with-multimodal-data-in-the-brain-imaging-data-structure/
+        youtube_url: https://www.youtube.com/embed/kCqCfqweAAs?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 10:30am
+        title: Dataset showcase
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/dataset-showcase/
+        youtube_url: https://www.youtube.com/embed/-ixOdjAbz-o?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 1:30pm
+        title: User-friendly web apps to facilitate fMRI study design and analysis
+        speakers:
+        - Stephanie Noble
+        event_page: https://neurohackademy.org/course/user-friendly-web-apps-to-facilitate-fmri-study-design-and-analysis/
+        youtube_url: https://www.youtube.com/embed/sQcOt3cs5wo?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Review sessions
+        speakers:
+        - Noah C. Benson
+        - Kelly Chang
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/review-sessions-3/
+        youtube_url: https://www.youtube.com/embed/84fkaSJU72Y  ?rel=0
+    week2:
+      Monday:
+      - time: 9:00am
+        title: GitHub for Project Management
+        speakers:
+        - Anshul Tambay
+        event_page: https://neurohackademy.org/course/github-for-project-management/
+        youtube_url: https://www.youtube.com/embed/z8g4a6k38Ts?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 10:30am
+        title: Hack project pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-project-pitches/
+        youtube_url: https://www.youtube.com/embed/178FBxXweNg?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-4/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup-3/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-4/
+        youtube_url: null
+      Wednesday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup-3/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 1:30pm
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks-6/
+        youtube_url: https://www.youtube.com/embed/B1fQsxJFz10?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-4/
+        youtube_url: null
+      Thursday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup-3/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-4/
+        youtube_url: null
+      Friday:
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-7/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-5/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-8/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Final presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/final-presentations-2/
+        youtube_url: https://www.youtube.com/embed/mSyki0lcCwQ?rel=0
+      - time: 5:00pm
+        title: Farewell reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-reception-2/
+        youtube_url: null
+'2023':
+  events:
+    week1:
+      Monday:
+      - time: 9:00am
+        title: Introduction to NeuroHackademy
+        speakers:
+        - Ariel Rokem
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-neurohackademy-3/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 11:00am
+        title: Introduction to Python
+        speakers:
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/introduction-to-python-4/
+        youtube_url: null
+      - time: 11:00am
+        title: Advanced programming in Python
+        speakers:
+        - John Kruper
+        event_page: https://neurohackademy.org/course/advanced-programming-in-python-2/
+        youtube_url: https://www.youtube.com/embed/S0hI1zsB2IA?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-7/
+        youtube_url: https://www.youtube.com/embed/_Fg8drMU2qk?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Measuring and analyzing human functional brain networks
+        speakers:
+        - Caterina Gratton
+        event_page: https://neurohackademy.org/course/measuring-and-analyzing-human-functional-brain-networks-3/
+        youtube_url: https://www.youtube.com/embed/MuL8jRjq0N8?rel=0
+      - time: 5:00pm
+        title: Welcome reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/welcome-reception-4/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: Introduction to Python
+        speakers:
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/introduction-to-python-5/
+        youtube_url: https://www.youtube.com/embed/IHY_Q2Z9b9Q?rel=0
+      - time: 9:00am
+        title: Advanced programming in Python
+        speakers:
+        - John Kruper
+        event_page: https://neurohackademy.org/course/advanced-programming-in-python-3/
+        youtube_url: https://www.youtube.com/embed/EpbekZ-p92o?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 10:30am
+        title: Building web applications
+        speakers:
+        - Adam Richie-Halford
+        event_page: https://neurohackademy.org/course/building-web-applications/
+        youtube_url: https://www.youtube.com/embed/owBmn3InboY?rel=0
+      - time: 10:30am
+        title: Building software libraries in Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/building-software-libraries-in-python/
+        youtube_url: https://www.youtube.com/embed/4OJ9uR3_6Jw?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: Introduction to version control with git
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-version-control-with-git/
+        youtube_url: https://www.youtube.com/embed/nedvnTtmE2s?rel=0
+      - time: 1:30pm
+        title: Collaboration patterns with git/GitHub
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/collaboration-patterns-with-git-github/
+        youtube_url: https://www.youtube.com/embed/ZHe4an9INww?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: AI-assisted programming
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/ai-assisted-programming/
+        youtube_url: https://www.youtube.com/embed/jUEIDjZcbcs?rel=0
+      Wednesday:
+      - time: 9:00am
+        title: 'Responsible Data Governance for Neuroscience: the role of ethics and
+          the law'
+        speakers:
+        - Damian Eke
+        event_page: https://neurohackademy.org/course/responsible-data-governance-for-neuroscience-the-role-of-ethics-and-the-law/
+        youtube_url: https://www.youtube.com/embed/q21R4abot3w?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 10:30am
+        title: Software containerization with Docker
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/software-containerization-with-docker/
+        youtube_url: https://www.youtube.com/embed/qhWhNs9vInk?rel=0
+      - time: 10:30am
+        title: Data visualization in Python
+        speakers:
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/data-visualization-in-python-4/
+        youtube_url: https://www.youtube.com/embed/2EfiGMI7zw8?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: Contributing to large-scale international neuroimaging initiatives
+          through coordinated data analysis
+        speakers:
+        - Neda Jahanshad
+        event_page: https://neurohackademy.org/course/contributing-to-large-scale-international-neuroimaging-initiatives-through-coordinated-data-analysis/
+        youtube_url: https://www.youtube.com/embed/FAdCpD7WQGY?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Cloud computing
+        speakers:
+        - Naomi Alterman
+        event_page: https://neurohackademy.org/course/cloud-computing-5/
+        youtube_url: https://www.youtube.com/embed/xfAJJPtStYg?rel=0
+      - time: 3:30pm
+        title: Introduction to Machine Learning
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-machine-learning-2/
+        youtube_url: https://www.youtube.com/embed/9zULfK9R1Lw?rel=0
+      Thursday:
+      - time: 9:00am
+        title: BIDS-iEEG in practice to map electrical stimulation driven connectivity
+        speakers:
+        - Dora Hermes
+        event_page: https://neurohackademy.org/course/bids-ieeg-in-practice-to-map-electrical-stimulation-driven-connectivity-2/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 10:30am
+        title: Machine learning methods for neuroimaging
+        speakers:
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/machine-learning-methods-for-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/shAmKXAfjW4?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: Statistical and sociological components of reproducibility
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/statistical-and-sociological-components-of-reproducibility/
+        youtube_url: https://www.youtube.com/embed/HMctfZxU0mo?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Careers in neuroimaging and data science
+        speakers: []
+        event_page: https://neurohackademy.org/course/careers-in-neuroimaging-and-data-science-2/
+        youtube_url: https://www.youtube.com/embed/AJnVpH2HNvo?rel=0
+      - time: 5:00pm
+        title: Networking event
+        speakers: []
+        event_page: https://neurohackademy.org/course/networking-event/
+        youtube_url: null
+      Friday:
+      - time: 9:00am
+        title: Processing intracranial data with MNE-python
+        speakers:
+        - Liberty Hamilton
+        event_page: https://neurohackademy.org/course/processing-intracranial-data-with-mne-python-2/
+        youtube_url: https://www.youtube.com/embed/zEeXjQ7I75M?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 10:30am
+        title: The Brain Imaging Data Structure
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/the-brain-imaging-data-structure/
+        youtube_url: https://www.youtube.com/embed/GpO0yajNdSI?rel=0
+      - time: 10:30am
+        title: Introduction to deep learning
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-deep-learning/
+        youtube_url: https://www.youtube.com/embed/3owNA-17F5Q?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: Data showcase
+        speakers:
+        - Ariel Rokem
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/data-showcase-2/
+        youtube_url: https://www.youtube.com/embed/Q6E_DI8NSmI?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Review sessions
+        speakers:
+        - Ariel Rokem
+        - John Kruper
+        event_page: https://neurohackademy.org/course/review-sessions/
+        youtube_url: https://www.youtube.com/embed/RY8OYqJepWM?rel=0
+      - time: 3:30pm
+        title: Review sessions
+        speakers:
+        - Noah C. Benson
+        - Kelly Chang
+        event_page: https://neurohackademy.org/course/review-sessions-2/
+        youtube_url: https://www.youtube.com/embed/Vd3KwJQnsrI?rel=0
+    week2:
+      Monday:
+      - time: 9:00am
+        title: Neural decoding in the wild
+        speakers:
+        - Bing Brunton
+        event_page: https://neurohackademy.org/course/neural-decoding-in-the-wild-2/
+        youtube_url: https://www.youtube.com/embed/zk9VmbtqrQk?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 10:30am
+        title: Software development project management
+        speakers:
+        - Vani Mandava
+        event_page: https://neurohackademy.org/course/software-development-project-management/
+        youtube_url: https://www.youtube.com/embed/20hn3IDd5Tw?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: Hackathon pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon-pitches-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-3/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup-2/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-3/
+        youtube_url: null
+      Wednesday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup-2/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 1:30pm
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks-5/
+        youtube_url: https://www.youtube.com/embed/FtsS4Kso_Lo?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-3/
+        youtube_url: null
+      Thursday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup-2/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions-3/
+        youtube_url: null
+      Friday:
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-5/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-6/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Final presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/final-presentations/
+        youtube_url: null
+      - time: 5:00pm
+        title: Farewell reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-reception/
+        youtube_url: null
+'2022':
+  events:
+    week1:
+      Monday:
+      - time: 9:00am
+        title: Welcome to NeuroHackademy
+        speakers:
+        - Ariel Rokem
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/welcome-to-neurohackademy/
+        youtube_url: https://www.youtube.com/embed/wLpHq-7KJoA?rel=0
+      - time: 9:30am
+        title: Icebreaker
+        speakers: []
+        event_page: https://neurohackademy.org/course/icebreaker/
+        youtube_url: null
+      - time: 10:30am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-6/
+        youtube_url: https://www.youtube.com/embed/h0gO8jct0YM?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: What if all the data in the world were instantly accessible?
+        speakers:
+        - Satra Ghosh
+        event_page: https://neurohackademy.org/course/what-if-all-the-data-in-the-world-were-instantly-accessible/
+        youtube_url: https://www.youtube.com/embed/8smLVKhi7Sc?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Neural decoding in the wild
+        speakers:
+        - Bing Brunton
+        event_page: https://neurohackademy.org/course/neural-decoding-in-the-wild/
+        youtube_url: https://www.youtube.com/embed/kdWeurrz5B8?rel=0
+      - time: 5:00pm
+        title: Welcome reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/welcome-reception-3/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: 'Introduction to Python: the Basics'
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-python-3/
+        youtube_url: null
+      - time: 9:00am
+        title: Data management in Python/Pandas
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/data-management-in-python-pandas/
+        youtube_url: https://www.youtube.com/embed/zkLNCMSQSOQ?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: Meta-analysis and reproducibility
+        speakers:
+        - Angela Laird
+        event_page: https://neurohackademy.org/course/meta-analysis-and-reproducibility-4/
+        youtube_url: https://www.youtube.com/embed/wZsXX9F0fQw?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Git from Scratch
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/git-from-scratch/
+        youtube_url: https://www.youtube.com/embed/cD2GRMpbHfE?rel=0
+      - time: 1:30pm
+        title: Collaboration patterns with Git
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/collaboration-patterns-with-git/
+        youtube_url: https://www.youtube.com/embed/EKf7Hz5e_e8?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Docker
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/docker-7/
+        youtube_url: https://www.youtube.com/embed/_0DxQkk2APY?rel=0
+      - time: 5:00pm
+        title: Poster session
+        speakers: []
+        event_page: https://neurohackademy.org/course/poster-session-3/
+        youtube_url: null
+      Wednesday:
+      - time: 9:00am
+        title: Data visualization in Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/data-visualization-in-python-3/
+        youtube_url: https://www.youtube.com/embed/sYkJPAmMsTQ?rel=0
+      - time: 9:00am
+        title: 'Introduction to Python: Control Flow'
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-python-control-flow/
+        youtube_url: https://www.youtube.com/embed/Ht-NgBFwkgM?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: 'Responsible data governance for neuroscience: the need for FAIR-C'
+        speakers:
+        - Damian Eke
+        event_page: https://neurohackademy.org/course/responsible-data-governance-for-neuroscience/
+        youtube_url: https://www.youtube.com/embed/XNqSsnS5p_k?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Measuring and analyzing human functional brain networks
+        speakers:
+        - Caterina Gratton
+        event_page: https://neurohackademy.org/course/measuring-and-analyzing-human-functional-brain-networks-2/
+        youtube_url: https://www.youtube.com/embed/zYxddeQS2x8?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Hands on meta-analysis / NIMARE
+        speakers:
+        - Taylor Salo
+        event_page: https://neurohackademy.org/course/hands-on-meta-analysis-nimare/
+        youtube_url: https://www.youtube.com/embed/PwSxqphf1i8?rel=0
+      - time: 3:30pm
+        title: Introduction to machine learning / scikit learn
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-machine-learning-scikit-learn/
+        youtube_url: https://www.youtube.com/embed/hclzRXCDe1U?rel=0
+      Thursday:
+      - time: 9:00am
+        title: Parallelization with Python/Dask
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/parallelization-with-python-dask/
+        youtube_url: https://www.youtube.com/embed/7k4d_7F7dz4?rel=0
+      - time: 9:00am
+        title: 'Introduction to Python: NumPy'
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-python-numpy/
+        youtube_url: https://www.youtube.com/embed/v6-voEU5WJ0?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: BIDS-iEEG in practice to map electrical stimulation driven connectivity
+        speakers:
+        - Dora Hermes
+        event_page: https://neurohackademy.org/course/bids-ieeg-in-practice-to-map-electrical-stimulation-driven-connectivity/
+        youtube_url: https://www.youtube.com/embed/0xh2qYQWm2o?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Data management for neuroimaging with datalad
+        speakers:
+        - Adina Wagner
+        event_page: https://neurohackademy.org/course/data-management-for-neuroimaging-with-datalad/
+        youtube_url: https://www.youtube.com/embed/oZqE8-iAhRE?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Cloud computing
+        speakers:
+        - Naomi Alterman
+        event_page: https://neurohackademy.org/course/cloud-computing-4/
+        youtube_url: https://www.youtube.com/embed/qbRkD9tDHQE?rel=0
+      - time: 3:30pm
+        title: Deep learning
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/deep-learning-2/
+        youtube_url: https://www.youtube.com/embed/RT7gI-VN4dE?rel=0
+      Friday:
+      - time: 9:00am
+        title: Processing intracranial data with MNE-python
+        speakers:
+        - Liberty Hamilton
+        event_page: https://neurohackademy.org/course/processing-intracranial-data-with-mne-python/
+        youtube_url: https://www.youtube.com/embed/rP29hCxq-rs?rel=0
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: "The issues with statistics that will make your work irreproducible\
+          \ \u2013 and what we should do about it"
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/the-issues-with-statistics-that-will-make-your-work-irreproducible-and-what-we-should-do-about-it/
+        youtube_url: https://www.youtube.com/embed/rhwExmH194k?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Data showcase
+        speakers:
+        - Melanie Ganz
+        - Kendrick Kay
+        - Adam Richie-Halford
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/data-showcase/
+        youtube_url: https://www.youtube.com/embed/lRMLYpYTT1M?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Review session 1
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/review-session-1/
+        youtube_url: https://www.youtube.com/embed/0nLpSLXUbeE?rel=0
+      - time: 3:30pm
+        title: Review session 2
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/review-session-2/
+        youtube_url: https://www.youtube.com/embed/8rkE1wGw74c?rel=0
+    week2:
+      Monday:
+      - time: 9:00am
+        title: Hackathon pitch session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon-pitch-session/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-3/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-3/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks-4/
+        youtube_url: https://www.youtube.com/embed/0K11gHAkrBM?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout session
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/breakout-session-ariel-rokem/
+        youtube_url: https://www.youtube.com/embed/EgcuiIDXgKc?rel=0
+      - time: 3:30pm
+        title: Breakout session
+        speakers:
+        - Kendrick Kay
+        event_page: https://neurohackademy.org/course/breakout-session/
+        youtube_url: https://www.youtube.com/embed/3RYK4W7orcQ?rel=0
+      Wednesday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-3/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Careers in data science and neuroimaging (panel)
+        speakers: []
+        event_page: https://neurohackademy.org/course/careers-in-data-science-and-neuroimaging-panel/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Breakout session
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/breakout-sessions-2/
+        youtube_url: https://www.youtube.com/embed/xHyJDnFlHyo?rel=0
+      - time: 3:30pm
+        title: Breakout session
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/breakout-session-2/
+        youtube_url: https://www.youtube.com/embed/dYepCA8UVZA?rel=0
+      Thursday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-3/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 9:00am
+        title: Morning standup
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-standup/
+        youtube_url: null
+      - time: 10:00am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-3/
+        youtube_url: null
+      - time: 10:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-3/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: Hack presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-presentations/
+        youtube_url: https://www.youtube.com/embed/7GJy14f-HuU?rel=0
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 7:30pm
+        title: Farewell event
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-event/
+        youtube_url: null
+'2021':
+  events:
+    week1:
+      Monday:
+      - time: 9:30am
+        title: Welcome!
+        speakers:
+        - Ariel Rokem
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/welcome/
+        youtube_url: https://www.youtube.com/embed/-epQHdFdUm4?rel=0
+      - time: 10:30am
+        title: Get-to-know-ya
+        speakers: []
+        event_page: https://neurohackademy.org/course/get-to-know-ya/
+        youtube_url: null
+      - time: 11:30am
+        title: Introduction to programming in Python
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/docker-5/
+        youtube_url: https://www.youtube.com/embed/Swb-UptFRl4?rel=0
+      - time: 11:30am
+        title: Cloud computing
+        speakers:
+        - Tara Madhyastha
+        - Ariel Rokem
+        - Andrew Crabb
+        event_page: https://neurohackademy.org/course/cloud-computing-3/
+        youtube_url: https://www.youtube.com/embed/eGFW1eS61rA?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 9:30am
+        title: Morning check in
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-check-in/
+        youtube_url: null
+      - time: 9:40am
+        title: Diffusion Imaging in Python
+        speakers:
+        - Eleftherios Garyfallidis
+        event_page: https://neurohackademy.org/course/diffusion-imaging-in-python/
+        youtube_url: https://www.youtube.com/embed/vAMJl8IcRg8?rel=0
+      - time: 10:30am
+        title: Advanced programming in Python
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-programming-in-python-2/
+        youtube_url: https://www.youtube.com/embed/ycGWr5Zy2A0?rel=0
+      - time: 10:30am
+        title: Using git and GitHub for collaboration
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/using-git-and-github-for-collaboration/
+        youtube_url: https://www.youtube.com/embed/Lsmt2rHPJDU?rel=0
+      - time: 12:30pm
+        title: Meta-analysis and reproducibility
+        speakers:
+        - Angela Laird
+        - Taylor Salo
+        event_page: https://neurohackademy.org/course/meta-analysis-and-reproducibility-3/
+        youtube_url: https://www.youtube.com/embed/FyBQAOpLl1I?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Wednesday:
+      - time: 9:30am
+        title: Morning check in
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-check-in/
+        youtube_url: null
+      - time: 9:40am
+        title: 'Developing Open Source Software for science: a case study of PsychoPy'
+        speakers:
+        - Jon Peirce
+        event_page: https://neurohackademy.org/course/tbd-4/
+        youtube_url: https://www.youtube.com/embed/5Y2SukLjV9o?rel=0
+      - time: 10:30am
+        title: Neuroimaging in Python Q&A
+        speakers:
+        - Satra Ghosh
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/neuroimaging-in-python-qa/
+        youtube_url: https://www.youtube.com/embed/NnwP6yRcU8k?rel=0
+      - time: 11:30am
+        title: Machine learning in Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/machine-learning-in-python/
+        youtube_url: https://www.youtube.com/embed/SCQCGUUroG8?rel=0
+      - time: 11:30am
+        title: Docker
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/docker-6/
+        youtube_url: https://www.youtube.com/embed/tewf5ZRZHkE?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Thursday:
+      - time: 9:30am
+        title: Morning check in
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-check-in/
+        youtube_url: null
+      - time: 9:40am
+        title: Responsible data governance for Neuroscience
+        speakers:
+        - Damian Eke
+        event_page: https://neurohackademy.org/course/tbd-5/
+        youtube_url: https://www.youtube.com/embed/W1tH5TXd2-c?rel=0
+      - time: 10:30am
+        title: Measuring and analyzing human functional brain networks
+        speakers:
+        - Caterina Gratton
+        event_page: https://neurohackademy.org/course/measuring-and-analyzing-human-functional-brain-networks/
+        youtube_url: https://www.youtube.com/embed/7ZqThnhtwxg?rel=0
+      - time: 11:30am
+        title: Using git and GitHub for collaboration
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/using-git-and-github-for-collaboration-2/
+        youtube_url: https://www.youtube.com/embed/j3IbFKksJkQ?rel=0
+      - time: 11:30am
+        title: Docker
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/advanced-programming-in-python/
+        youtube_url: https://www.youtube.com/embed/4zQfSBYdKFY?rel=0
+      - time: 12:30pm
+        title: Self-supervised approaches for neural decoding and alignment
+        speakers:
+        - Eva Dyer
+        event_page: https://neurohackademy.org/course/self-supervised-approaches-for-neural-decoding-and-alignment/
+        youtube_url: https://www.youtube.com/embed/_CxOYR8hLVM?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 9:30am
+        title: Morning check in
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-check-in/
+        youtube_url: null
+      - time: 9:40am
+        title: Pytorch
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/pytorch/
+        youtube_url: https://www.youtube.com/embed/OCpmJ9LPMlc?rel=0
+      - time: 9:40am
+        title: Data visualization in Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/data-visualization-in-python-2/
+        youtube_url: https://www.youtube.com/embed/8I8qOPA7B9g?rel=0
+      - time: 10:30am
+        title: "The issues with statistics that will make your work irreproducible\
+          \ \u2013 and what we should do about it"
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/tbd-7/
+        youtube_url: https://www.youtube.com/embed/1ld0Ekg9BVA?rel=0
+      - time: 11:30am
+        title: Extending the Brain Imaging Data Structure to intracranial EEG
+        speakers:
+        - Dora Hermes
+        event_page: https://neurohackademy.org/course/tbd-8/
+        youtube_url: https://www.youtube.com/embed/R9bY8w8HiYI?rel=0
+      - time: 12:30pm
+        title: Careers in neuroimaging and data science
+        speakers:
+        - Anisha Keshavan
+        - Teon Brooks
+        - Chris Gorgolewski
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/careers-in-neuroimaging-and-data-science/
+        youtube_url: https://www.youtube.com/embed/IyGJVyLtF8w?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+    week2:
+      Monday:
+      - time: 9:30am
+        title: Morning check in
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-check-in/
+        youtube_url: null
+      - time: 9:40am
+        title: Resource showcase
+        speakers: []
+        event_page: https://neurohackademy.org/course/resource-showcase/
+        youtube_url: null
+      - time: 10:30am
+        title: Hackathon pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon-pitches/
+        youtube_url: null
+      - time: 12:30pm
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 9:30am
+        title: Stand up meeting
+        speakers: []
+        event_page: https://neurohackademy.org/course/stand-up-meeting/
+        youtube_url: null
+      - time: 10:30am
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks-2/
+        youtube_url: null
+      - time: 11:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Wednesday:
+      - time: 9:30am
+        title: Stand up meeting
+        speakers: []
+        event_page: https://neurohackademy.org/course/stand-up-meeting/
+        youtube_url: null
+      - time: 10:30am
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks-3/
+        youtube_url: null
+      - time: 11:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Thursday:
+      - time: 9:30am
+        title: Stand up meeting
+        speakers: []
+        event_page: https://neurohackademy.org/course/stand-up-meeting/
+        youtube_url: null
+      - time: 9:40am
+        title: Fireside chat
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/fireside-chat/
+        youtube_url: https://www.youtube.com/embed/HreKyV4aJmw?rel=0
+      - time: 11:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-2/
+        youtube_url: null
+      - time: 12:30pm
+        title: Karaoke!
+        speakers: []
+        event_page: https://neurohackademy.org/course/karaoke/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 9:30am
+        title: Stand up meeting
+        speakers: []
+        event_page: https://neurohackademy.org/course/stand-up-meeting/
+        youtube_url: null
+      - time: 11:30am
+        title: Hacking
+        speakers: []
+        event_page: https://neurohackademy.org/course/hacking-2/
+        youtube_url: null
+      - time: 11:30am
+        title: Hack project presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-project-presentations/
+        youtube_url: https://www.youtube.com/embed/qulcyULvy_c?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+'2020':
+  events:
+    week1:
+      Monday:
+      - time: 7:00am
+        title: Introduction to NeuroHackademy
+        speakers:
+        - Ariel Rokem
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/introduction-to-neurohackademy-2/
+        youtube_url: https://www.youtube.com/embed/OKf6Pupaiv0?rel=0
+      - time: 8:00am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-5/
+        youtube_url: https://www.youtube.com/embed/E9vp1JyYGHY?rel=0
+      - time: 9:30am
+        title: Ethical considerations in neuroimaging data science and beyond
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/ethics-in-neuroimaging-and-data-science/
+        youtube_url: https://www.youtube.com/embed/15lYv0-XVek?rel=0
+      - time: 10:30am
+        title: Ice-breaker
+        speakers: []
+        event_page: https://neurohackademy.org/course/ice-breaker/
+        youtube_url: null
+      - time: 12:00pm
+        title: Introduction to programming in Python
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/introduction-to-programming-in-python/
+        youtube_url: https://www.youtube.com/embed/5KgyMerXYz8?rel=0
+      - time: 12:00pm
+        title: High-performance Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/high-performance-python-3/
+        youtube_url: https://www.youtube.com/embed/4pCeUMOVfIs?rel=0
+      - time: 2:00pm
+        title: 'From interactive exploration to reproducible data science: Jupyter,
+          Binder, Travis and friends.'
+        speakers:
+        - Fernando Perez
+        event_page: https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends-2/
+        youtube_url: https://www.youtube.com/embed/nXA39_eW3Q4?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 7:00am
+        title: Version control with git/GitHub
+        speakers:
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/version-control-with-git-github/
+        youtube_url: https://www.youtube.com/embed/ErzGfcBoLg4?rel=0
+      - time: 7:00am
+        title: Docker
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/docker-4/
+        youtube_url: https://www.youtube.com/embed/4s0vNSt-3j0?rel=0
+      - time: 9:00am
+        title: Data manipulation in Python (Numpy/Pandas)
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/data-manipulation-in-python-numpy-pandas/
+        youtube_url: https://www.youtube.com/embed/EwCGCJk7YH0?rel=0
+      - time: 9:00am
+        title: Creating share-able Python libraries
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/creating-share-able-python-libraries/
+        youtube_url: https://www.youtube.com/embed/ACycTncrJWA?rel=0
+      - time: 12:00pm
+        title: Introduction to Machine Learning
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/introduction-to-machine-learning/
+        youtube_url: https://www.youtube.com/embed/zvd8M8dwHxM?rel=0
+      - time: 12:00pm
+        title: Data visualization in Python
+        speakers:
+        - Kirstie Whitaker
+        event_page: https://neurohackademy.org/course/data-visualization-in-python/
+        youtube_url: https://www.youtube.com/embed/uaKu5a6P3oU?rel=0
+      - time: 1:30pm
+        title: Meta-analysis and reproducibility
+        speakers:
+        - Angela Laird
+        event_page: https://neurohackademy.org/course/meta-analysis-and-reproducibility-2/
+        youtube_url: https://www.youtube.com/embed/ofstqIUD5kU?rel=0
+      - time: 1:30pm
+        title: The difference between prediction and explanation
+        speakers:
+        - Jeanette Mumford
+        event_page: https://neurohackademy.org/course/the-difference-between-prediction-and-explanation-2/
+        youtube_url: https://www.youtube.com/embed/D8XiAlIjhBw?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Wednesday:
+      - time: 7:00am
+        title: Workflows/Nipype
+        speakers:
+        - Satra Ghosh
+        event_page: https://neurohackademy.org/course/nipype-2/
+        youtube_url: https://www.youtube.com/embed/YjJ9-gxlRJk?rel=0
+      - time: 7:00am
+        title: 'NiBabel: Neuroimaging data and file structures in Python'
+        speakers:
+        - Chris Markiewicz
+        event_page: https://neurohackademy.org/course/nibabel/
+        youtube_url: https://www.youtube.com/embed/Y6ulmOlW1FI?rel=0
+      - time: 9:00am
+        title: Nilearn
+        speakers:
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/nilearn/
+        youtube_url: https://www.youtube.com/embed/ASEyg5nxj3A?rel=0
+      - time: 9:00am
+        title: Nipreps
+        speakers:
+        - Oscar Esteban
+        event_page: https://neurohackademy.org/course/nipreps/
+        youtube_url: https://www.youtube.com/embed/J_ZwPN8gYpM?rel=0
+      - time: 11:00am
+        title: Brain Imaging Data Structure (BIDS)
+        speakers:
+        - Kirstie Whitaker
+        event_page: https://neurohackademy.org/course/brain-imaging-data-structure-bids/
+        youtube_url: https://www.youtube.com/embed/XzfjxbTYQRM?rel=0
+      - time: 11:00am
+        title: 'High Stakes Neuroimaging: A transition to translational medicine in
+          industry'
+        speakers:
+        - Anisha Keshavan
+        event_page: https://neurohackademy.org/course/high-stakes-neuroimaging-a-transition-to-translational-medicine-in-industry/
+        youtube_url: https://www.youtube.com/embed/cQnz1A--yes?rel=0
+      - time: 12:00pm
+        title: Visualizing invasive and non-invasive EEG data
+        speakers:
+        - Liberty Hamilton
+        event_page: https://neurohackademy.org/course/visualizing-invasive-and-non-invasive-eeg-data/
+        youtube_url: https://www.youtube.com/embed/XRZOxqCEX04?rel=0
+      - time: 12:00pm
+        title: Introduction to the Geometry and Structure of the Human Brain
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/introduction-to-the-geometry-and-structure-of-the-human-brain/
+        youtube_url: https://www.youtube.com/embed/LRZwZAvdJgw?rel=0
+      - time: 1:30pm
+        title: Word embeddings as priors for language encoding models
+        speakers:
+        - Alex Huth
+        event_page: https://neurohackademy.org/course/word-embeddings-as-priors-for-language-encoding-models/
+        youtube_url: https://www.youtube.com/embed/ikrgL7ecJVU?rel=0
+      - time: 1:30pm
+        title: 'Reproducibility: what you need to know from epistemology to statistics'
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/reproducibility-what-you-need-to-know-from-epistemology-to-statistics/
+        youtube_url: https://www.youtube.com/embed/3uE1IZnosj0?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Thursday:
+      - time: 7:00am
+        title: Machine learning for neuroimaging
+        speakers:
+        - Gael Varoquaux
+        event_page: https://neurohackademy.org/course/machine-learning-for-neuroimaging-2/
+        youtube_url: https://www.youtube.com/embed/XEZVLpyH5-I?rel=0
+      - time: 9:00am
+        title: Functional brain parcellation
+        speakers:
+        - Pierre Bellec
+        event_page: https://neurohackademy.org/course/functional-brain-parcellation-2/
+        youtube_url: https://www.youtube.com/embed/2DUuxEc7p0o?rel=0
+      - time: 9:00am
+        title: Cloud computing for neuroimaging
+        speakers:
+        - Tara Madhyastha
+        - Amanda Tan
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/cloud-computing-for-neuroimaging-2/
+        youtube_url: https://www.youtube.com/embed/X5XvkdE6vgU?rel=0
+      - time: 11:00am
+        title: 'Panel discussion: neuroimaging and data science careers'
+        speakers:
+        - Chris Gorgolewski
+        - Anisha Keshavan
+        - Chris Chatham
+        event_page: https://neurohackademy.org/course/panel-discussion-data-science-and-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/Ft8nX_m2exE?rel=0
+      - time: 12:00pm
+        title: Testing and accounting for confounding variables
+        speakers:
+        - Manjari Narayan
+        event_page: https://neurohackademy.org/course/testing-and-accounting-for-confounding-variables/
+        youtube_url: null
+      - time: 12:00pm
+        title: Optimization (ADSI)
+        speakers:
+        - Sasha Aravkin
+        - Prasanna Raut
+        - Kelsey Maass
+        - Maryam Fazel
+        event_page: https://neurohackademy.org/course/optimization-adsi-3/
+        youtube_url: https://www.youtube.com/embed/JAZAdpmkXFo?rel=0
+      - time: 1:30pm
+        title: Optimal transport (ADSI)
+        speakers:
+        - Zaid Harchaoui
+        - Lang Liu
+        event_page: https://neurohackademy.org/course/optimal-transport-adsi-3/
+        youtube_url: null
+      - time: 1:30pm
+        title: 'Panel discussion: Python ecosystem Q&A'
+        speakers:
+        - Tal Yarkoni
+        - Satra Ghosh
+        - Noah C. Benson
+        - Chris Markiewicz
+        event_page: https://neurohackademy.org/course/aligning-neural-recordings-across-time-space-and-behavior/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 7:00am
+        title: Brain hacking 101
+        speakers:
+        - Ariel Rokem
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/brain-hacking-101/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+    week2:
+      Monday:
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Wednesday:
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Thursday:
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+'2019':
+  events:
+    week1:
+      Monday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Introduction to NeuroHackademy
+        speakers:
+        - Ariel Rokem
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/introduction-to-neurohackademy/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-4/
+        youtube_url: https://www.youtube.com/embed/LnR1FhffnGI?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: The FAIR principles
+        speakers:
+        - Maryann Martone
+        event_page: https://neurohackademy.org/course/the-fair-principles/
+        youtube_url: https://www.youtube.com/embed/IfY-Z0vWuws?rel=0
+      - time: 2:00pm
+        title: Collaborating with git and GitHub
+        speakers:
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/collaborating-with-git-and-github/
+        youtube_url: https://www.youtube.com/embed/7h5tEPfM59U?rel=0
+      - time: 2:00pm
+        title: Docker
+        speakers:
+        - Anisha Keshavan
+        event_page: https://neurohackademy.org/course/docker-2/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Office hours
+        speakers: []
+        event_page: https://neurohackademy.org/course/office-hours/
+        youtube_url: null
+      - time: 6:00pm
+        title: Welcome reception + dinner
+        speakers: []
+        event_page: https://neurohackademy.org/course/welcome-reception-dinner/
+        youtube_url: null
+      Tuesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: "Plumbing the Intertubes: A Hitchhiker\u2019s Guide to Information\
+          \ Filtering"
+        speakers:
+        - Satra Ghosh
+        event_page: https://neurohackademy.org/course/tbd/
+        youtube_url: https://www.youtube.com/embed/y_uFs4XiAc8?rel=0
+      - time: 10:00am
+        title: Introduction to Python
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/introduction-to-python-2/
+        youtube_url: https://www.youtube.com/embed/QXGSbApRZms?rel=0
+      - time: 10:00am
+        title: Building Python libraries
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/building-python-libraries/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Numerical computing in Python
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/numerical-computing-in-python/
+        youtube_url: https://www.youtube.com/embed/ZmNpURWhcZM?rel=0
+      - time: 1:00pm
+        title: High-performance Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/high-performance-python-2/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Data visualization
+        speakers:
+        - Kirstie Whitaker
+        event_page: https://neurohackademy.org/course/data-visualization-2/
+        youtube_url: https://www.youtube.com/embed/2A1_ba2fVjs?rel=0
+      - time: 3:00pm
+        title: Browser-based visualization with Javascript
+        speakers:
+        - Anisha Keshavan
+        event_page: https://neurohackademy.org/course/browser-based-visualization-with-javascript/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Model-based fMRI and HCP data
+        speakers:
+        - Noah C. Benson
+        event_page: https://neurohackademy.org/course/model-based-fmri-and-hcp-data/
+        youtube_url: null
+      - time: 5:00pm
+        title: Office hours
+        speakers: []
+        event_page: https://neurohackademy.org/course/office-hours/
+        youtube_url: null
+      - time: 6:00pm
+        title: Poster session
+        speakers: []
+        event_page: https://neurohackademy.org/course/poster-session-2/
+        youtube_url: null
+      Wednesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Measuring human functional brain networks
+        speakers:
+        - Caterina Gratton
+        event_page: https://neurohackademy.org/course/tbd-3/
+        youtube_url: https://www.youtube.com/embed/97wXe3d-3Po?rel=0
+      - time: 9:50am
+        title: Functional brain parcellation
+        speakers:
+        - Pierre Bellec
+        event_page: https://neurohackademy.org/course/functional-brain-parcellation/
+        youtube_url: https://www.youtube.com/embed/B3fxnv48zf0?rel=0
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Neuroethics
+        speakers:
+        - "Blaise Ag\xFCera y Arcas"
+        event_page: https://neurohackademy.org/course/neuroethics-2/
+        youtube_url: https://www.youtube.com/embed/Dl2ETBmiY6M?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Machine learning with Scikit Learn
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/machine-learning-with-scikit-learn-4/
+        youtube_url: https://www.youtube.com/embed/epjZDEPRFsI?rel=0
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: BIDS
+        speakers:
+        - Kirstie Whitaker
+        event_page: https://neurohackademy.org/course/bids/
+        youtube_url: null
+      - time: 4:00pm
+        title: Jupyterlab and Binder
+        speakers:
+        - Elizabeth DuPre
+        event_page: https://neurohackademy.org/course/jupyterlab-and-binder/
+        youtube_url: https://www.youtube.com/embed/Mtn8ijpYuBY?rel=0
+      - time: 5:00pm
+        title: Office hours
+        speakers: []
+        event_page: https://neurohackademy.org/course/office-hours/
+        youtube_url: null
+      Thursday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Open datasets for Neurohacking
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/open-datasets-for-neurohacking/
+        youtube_url: https://www.youtube.com/embed/P96jwM0mu30?rel=0
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Meta-analysis and reproducibility
+        speakers:
+        - Angela Laird
+        event_page: https://neurohackademy.org/course/meta-analysis-and-reproducibility/
+        youtube_url: https://www.youtube.com/embed/VSZ-WgGKRjQ?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Optimization (ADSI)
+        speakers:
+        - Sasha Aravkin
+        event_page: https://neurohackademy.org/course/optimization-adsi/
+        youtube_url: null
+      - time: 1:00pm
+        title: Docker
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/docker-3/
+        youtube_url: https://www.youtube.com/embed/M17aF9NphJQ?rel=0
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Optimization (ADSI)
+        speakers:
+        - Sasha Aravkin
+        - Peng Zheng
+        event_page: https://neurohackademy.org/course/optimization-adsi-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Cloud computing
+        speakers:
+        - Amanda Tan
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/cloud-computing-2/
+        youtube_url: https://www.youtube.com/embed/jX7pfWw98RU?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Office hours
+        speakers: []
+        event_page: https://neurohackademy.org/course/office-hours/
+        youtube_url: null
+      Friday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: The difference between prediction and explanation
+        speakers:
+        - Jeanette Mumford
+        event_page: https://neurohackademy.org/course/the-difference-between-prediction-and-explanation/
+        youtube_url: https://www.youtube.com/embed/h29hZeCEOB0?rel=0
+      - time: 9:50am
+        title: Evil p values
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/evil-p-values/
+        youtube_url: https://www.youtube.com/embed/TRmkNXgQgBw?rel=0
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Finding low-dimensional structure in large-scale neural recordings
+        speakers:
+        - Eva Dyer
+        event_page: https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings-2/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Nipype
+        speakers:
+        - Satra Ghosh
+        event_page: https://neurohackademy.org/course/nipype/
+        youtube_url: https://www.youtube.com/embed/f_3w0coEjzw?rel=0
+      - time: 1:00pm
+        title: Optimal transport (ADSI)
+        speakers:
+        - Zaid Harchaoui
+        event_page: https://neurohackademy.org/course/optimal-transport-adsi/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Deep learning
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/deep-learning/
+        youtube_url: https://www.youtube.com/embed/nzJ7A1KevSk?rel=0
+      - time: 3:00pm
+        title: Optimal transport (ADSI)
+        speakers:
+        - Zaid Harchaoui
+        event_page: https://neurohackademy.org/course/optimal-transport-adsi-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Office hours
+        speakers: []
+        event_page: https://neurohackademy.org/course/office-hours/
+        youtube_url: null
+    week2:
+      Monday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Project pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-pitches-2/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Team formation and project scoping
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-formation-and-project-scoping/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-3/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions/
+        youtube_url: null
+      Tuesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-2/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-3/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions/
+        youtube_url: null
+      Wednesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-2/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-3/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions/
+        youtube_url: null
+      Thursday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-2/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-3/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Breakout sessions
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakout-sessions/
+        youtube_url: null
+      Friday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast-2/
+        youtube_url: null
+      - time: 9:00am
+        title: Hack session
+        speakers: []
+        event_page: https://neurohackademy.org/course/hack-session/
+        youtube_url: null
+      - time: 10:40am
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break/
+        youtube_url: null
+      - time: 11:00am
+        title: Presentation preparation
+        speakers: []
+        event_page: https://neurohackademy.org/course/presentation-preparation/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch-2/
+        youtube_url: null
+      - time: 1:00pm
+        title: Project presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations-4/
+        youtube_url: null
+      - time: 2:30pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Project presentations (continued)
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations-continued/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 6:00pm
+        title: Farewell party
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-party-2/
+        youtube_url: null
+'2018':
+  events:
+    week1:
+      Monday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Introduction to Neurohackweek
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-neurohackweek-2/
+        youtube_url: null
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 10:40am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-3/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Git/Github
+        speakers:
+        - Bernease Herman
+        event_page: https://neurohackademy.org/course/git-github/
+        youtube_url: null
+      - time: 1:00pm
+        title: Docker for scientists
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/docker/
+        youtube_url: null
+      - time: 2:30pm
+        title: Introduction to Python
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/introduction-to-python/
+        youtube_url: https://www.youtube.com/embed/d1QZU-ZPOm0?rel=0
+      - time: 2:30pm
+        title: Introduction to R
+        speakers:
+        - Valentina Staneva
+        event_page: https://neurohackademy.org/course/introduction-to-r/
+        youtube_url: null
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Software testing
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/software-testing-2/
+        youtube_url: null
+      - time: 5:00pm
+        title: 'Science: open for all'
+        speakers:
+        - Kirstie Whitaker
+        event_page: https://neurohackademy.org/course/science-open-for-all/
+        youtube_url: null
+      - time: 6:00pm
+        title: Welcome Reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/welcome-reception-2/
+        youtube_url: null
+      Tuesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: 'From interactive exploration to reproducible data science: Jupyter,
+          Binder, Travis and friends.'
+        speakers:
+        - Fernando Perez
+        event_page: https://neurohackademy.org/course/from-interactive-exploration-to-reproducible-data-science-jupyter-binder-travis-and-friends/
+        youtube_url: https://www.youtube.com/embed/xOKPKiAhey4?rel=0
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Numerical computing for neuroimaging
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/numerical-computing-for-neuroimaging/
+        youtube_url: null
+      - time: 1:00pm
+        title: Python packaging
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/python-packaging/
+        youtube_url: https://www.youtube.com/embed/HGoLl9cag1U?rel=0
+      - time: 2:30pm
+        title: Data visualization
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/data-visualization/
+        youtube_url: null
+      - time: 2:30pm
+        title: Computer Vision
+        speakers:
+        - Michael Beyeler
+        event_page: https://neurohackademy.org/course/computer-vision/
+        youtube_url: https://www.youtube.com/embed/heIlr_REHP4?rel=0
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 3:30pm
+        title: Data manipulation in Python/Pandas
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/complex-data-structures/
+        youtube_url: https://www.youtube.com/embed/dHBPbBNsKKk?rel=0
+      - time: 3:30pm
+        title: High-performance Python
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/high-performance-python/
+        youtube_url: null
+      - time: 5:00pm
+        title: Deep learning with Keras
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/deep-learning-with-keras/
+        youtube_url: https://www.youtube.com/embed/X8sMERb-ljg?rel=0
+      - time: 6:00pm
+        title: Poster session
+        speakers: []
+        event_page: https://neurohackademy.org/course/poster-session/
+        youtube_url: null
+      Wednesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Deep learning with Keras (part 2)
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/neural-networks-part-2/
+        youtube_url: null
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 10:40am
+        title: Neuroethics
+        speakers:
+        - Eran Klein
+        event_page: https://neurohackademy.org/course/neuroethics/
+        youtube_url: https://www.youtube.com/embed/mmKajB1pggA?rel=0
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Machine learning with scikit-learn
+        speakers:
+        - Jake Vanderplas
+        event_page: https://neurohackademy.org/course/machine-learning-with-scikit-learn-3/
+        youtube_url: https://www.youtube.com/embed/yleEj8WayuY?rel=0
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: The Brain Imaging Data Structure (BIDS)
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/the-brain-imaging-data-structure-bids/
+        youtube_url: https://www.youtube.com/embed/OhqcQTi4xEI?rel=0
+      - time: 5:00pm
+        title: Introduction to web technologies
+        speakers:
+        - Anisha Keshavan
+        event_page: https://neurohackademy.org/course/introduction-to-web-technologies/
+        youtube_url: https://www.youtube.com/embed/jF3elUUqjtc?rel=0
+      - time: 5:00pm
+        title: CRN resources
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/crn-resources/
+        youtube_url: null
+      Thursday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Cloud Computing for Neuroimaging
+        speakers:
+        - Amanda Tan
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/cloud-computing-for-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/2j_SAzCwFmw?rel=0
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: 'Panel discussion: fostering open communities'
+        speakers:
+        - Chris Gorgolewski
+        - Fernando Perez
+        - Kirstie Whitaker
+        - Gael Varoquaux
+        - Satra Ghosh
+        event_page: https://neurohackademy.org/course/panel-discussion-fostering-open-communities/
+        youtube_url: https://www.youtube.com/embed/u_0pyMGzSQs?rel=0
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 2:45pm
+        title: Software pipelines for reproducible neuroimaging
+        speakers:
+        - Satra Ghosh
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/software-pipelines-for-reproducible-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/AH1A8i9bi48?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: 'Predictive models using object-oriented, interactive analysis in Matlab:
+          Tools and application to pain'
+        speakers:
+        - Tor Wager
+        event_page: https://neurohackademy.org/course/predictive-models-using-object-oriented-interactive-analysis-in-matlab-tools-and-application-to-pain/
+        youtube_url: https://www.youtube.com/embed/PSWPBN6RGN4?rel=0
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Finding low-dimensional structure in large-scale neural recordings
+        speakers:
+        - Eva Dyer
+        event_page: https://neurohackademy.org/course/finding-low-dimensional-structure-in-large-scale-neural-recordings/
+        youtube_url: https://www.youtube.com/embed/JU4O9qE_jMk?rel=0
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: AllenSDK and the Allen Brain Observatory
+        speakers:
+        - Nicholas Cain
+        - Justin Kiggins
+        event_page: https://neurohackademy.org/course/allensdk-and-the-allen-brain-observatory/
+        youtube_url: https://www.youtube.com/embed/n6rCVRlqT58?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: P-values and reproducibility issues
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/p-values-and-reproducibility-issues/
+        youtube_url: https://www.youtube.com/embed/sbCpiU6oBMQ?rel=0
+    week2:
+      Monday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Machine learning in neuroimaging
+        speakers:
+        - Gael Varoquaux
+        event_page: https://neurohackademy.org/course/machine-learning-in-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/qyDv2bp-Vr8?rel=0
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: R for statistical analysis of fMRI data
+        speakers:
+        - Tara Madhyastha
+        event_page: https://neurohackademy.org/course/r-for-statistical-analysis-of-fmri-data/
+        youtube_url: https://www.youtube.com/embed/sdbkWvFhTZ0?rel=0
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: 'Synthesizing fMRI using generative adversarial networks: cognitive
+          neuroscience applications, promises and pitfalls'
+        speakers:
+        - Sanmi Koyejo
+        event_page: https://neurohackademy.org/course/gans-for-brain-imaging/
+        youtube_url: https://www.youtube.com/embed/iUyWMUJ-BHE?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 5:00pm
+        title: Brain hacking
+        speakers:
+        - Cameron Craddock
+        event_page: https://neurohackademy.org/course/brain-hacking/
+        youtube_url: https://www.youtube.com/embed/QJ98QhX3cb0?rel=0
+      Tuesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Project pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-pitches/
+        youtube_url: null
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hackathon
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon-2/
+        youtube_url: null
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Wednesday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Hackathon
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon/
+        youtube_url: null
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hackathon
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon-2/
+        youtube_url: null
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 6:00pm
+        title: Unconference session
+        speakers: []
+        event_page: https://neurohackademy.org/course/unconference-session/
+        youtube_url: null
+      Thursday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Hackathon
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon/
+        youtube_url: null
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Hackathon
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon-2/
+        youtube_url: null
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Allen Institute Office Hours
+        speakers:
+        - Justin Kiggins
+        - Nicholas Cain
+        event_page: https://neurohackademy.org/course/allen-institute-office-hours/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 6:00pm
+        title: Unconference session
+        speakers: []
+        event_page: https://neurohackademy.org/course/unconference-session/
+        youtube_url: null
+      Friday:
+      - time: 7:00am
+        title: Breakfast
+        speakers: []
+        event_page: https://neurohackademy.org/course/breakfast/
+        youtube_url: null
+      - time: 9:00am
+        title: Hackathon
+        speakers: []
+        event_page: https://neurohackademy.org/course/hackathon/
+        youtube_url: null
+      - time: 10:30am
+        title: Morning coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/morning-coffee/
+        youtube_url: null
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+        event_page: https://neurohackademy.org/course/lunch/
+        youtube_url: null
+      - time: 1:00pm
+        title: Project presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations-3/
+        youtube_url: https://www.youtube.com/embed/Vn0ebJ-ZhGU?rel=0
+      - time: 2:30pm
+        title: Afternoon coffee
+        speakers: []
+        event_page: https://neurohackademy.org/course/afternoon-coffee/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 6:30pm
+        title: Farewell party (Lake Union cruise)
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-party-lake-union-cruise/
+        youtube_url: null
+'2017':
+  events:
+    week1:
+      Monday:
+      - time: 9:00am
+        title: Introduction to Neurohackweek
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-neurohackweek-4/
+        youtube_url: null
+      - time: 10:00am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers: []
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem/
+        youtube_url: null
+      - time: 10:00am
+        title: 'Reproducibility in fMRI: What is the problem?'
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/reproducibility-in-fmri-what-is-the-problem-2/
+        youtube_url: https://www.youtube.com/embed/xip0MRhFgsY?rel=0
+      - time: 1:00pm
+        title: Data Science Tools
+        speakers: []
+        event_page: https://neurohackademy.org/course/data-science-tools/
+        youtube_url: null
+      - time: 1:00pm
+        title: Advanced Unix and Make
+        speakers:
+        - Valentina Staneva
+        event_page: https://neurohackademy.org/course/advanced-unix-and-make/
+        youtube_url: null
+      - time: 1:00pm
+        title: Python programming
+        speakers:
+        - Valentina Staneva
+        event_page: https://neurohackademy.org/course/python-programming-2/
+        youtube_url: null
+      - time: 2:00pm
+        title: Git and GitHub
+        speakers:
+        - Bernease Herman
+        event_page: https://neurohackademy.org/course/git-and-github-2/
+        youtube_url: null
+      - time: 2:00pm
+        title: Testing scientific code
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/testing-scientific-code/
+        youtube_url: https://www.youtube.com/embed/DC2rdEyr1jU?rel=0
+      - time: 2:00pm
+        title: Jupyter
+        speakers:
+        - Dylan Nielson
+        event_page: https://neurohackademy.org/course/jupyter/
+        youtube_url: https://www.youtube.com/embed/91dfArMd17k?rel=0
+      - time: 3:00pm
+        title: Interactive Data Visualization with D3
+        speakers:
+        - Anisha Keshavan
+        event_page: https://neurohackademy.org/course/interactive-data-visualization-with-d3/
+        youtube_url: https://www.youtube.com/embed/6dsCZXJDzEQ?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: Cloud Computing for Neuroimaging
+        speakers:
+        - Tara Madhyastha
+        event_page: https://neurohackademy.org/course/cloud-computing/
+        youtube_url: null
+      - time: 1:00pm
+        title: Team project pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-pitches-2/
+        youtube_url: null
+      - time: 2:00pm
+        title: Team project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-work-3/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Allen Institute Data and Software
+        speakers:
+        - Nicholas Cain
+        event_page: https://neurohackademy.org/course/allen-institute-data-and-software/
+        youtube_url: https://www.youtube.com/embed/MSXWrbNLUas?rel=0
+      Wednesday:
+      - time: 9:00am
+        title: Machine Learning
+        speakers: []
+        event_page: https://neurohackademy.org/course/machine-learning/
+        youtube_url: null
+      - time: 9:00am
+        title: Machine Learning with scikit-learn
+        speakers:
+        - Jake Vanderplas
+        event_page: https://neurohackademy.org/course/machine-learning-with-scikit-learn-2/
+        youtube_url: https://www.youtube.com/embed/bIHo3ShqC2Y?rel=0
+      - time: 10:30am
+        title: Machine learning for neuroimaging
+        speakers:
+        - Chris Holdgraf
+        event_page: https://neurohackademy.org/course/machine-learning-for-neuroimaging/
+        youtube_url: https://www.youtube.com/embed/RY4CyuqjLx8?rel=0
+      - time: 1:00pm
+        title: Team project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-work-4/
+        youtube_url: null
+      - time: 3:00pm
+        title: The evil p value
+        speakers:
+        - J. B. Poline
+        event_page: https://neurohackademy.org/course/the-evil-p-value/
+        youtube_url: https://www.youtube.com/embed/e7Pj56FaT84?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Efficiency and Design Optimization for fMRI
+        speakers:
+        - Jeanette Mumford
+        event_page: https://neurohackademy.org/course/efficiency-and-design-optimization-for-fmri/
+        youtube_url: https://www.youtube.com/embed/hlmoYmU6cqY?rel=0
+      Thursday:
+      - time: 9:00am
+        title: Neuroimaging pipelines
+        speakers:
+        - Chris Gorgolewski
+        - Satra Ghosh
+        event_page: https://neurohackademy.org/course/neuroimaging-pipelines-2/
+        youtube_url: https://www.youtube.com/embed/_JWLq7WcG3Y?rel=0
+      - time: 1:00pm
+        title: Team Project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-projects/
+        youtube_url: null
+      - time: 3:00pm
+        title: Advanced time-series analysis (Dynamic Mode Decomposition)
+        speakers:
+        - Bing Brunton
+        event_page: https://neurohackademy.org/course/advanced-time-series-analysis-dynamic-mode-decomposition/
+        youtube_url: https://www.youtube.com/embed/wVWfeEsvQbY?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      Friday:
+      - time: 9:00am
+        title: Team project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-work-5/
+        youtube_url: null
+      - time: 1:00pm
+        title: Project Presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 6:30pm
+        title: Farewell Reception and Lake Union Cruise
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-reception-and-lake-union-cruise/
+        youtube_url: null
+'2016':
+  events:
+    week1:
+      Monday:
+      - time: 9:00am
+        title: Introduction to Neurohackweek
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/introduction-to-neurohackweek-3/
+        youtube_url: null
+      - time: 11:00am
+        title: Advance Unix and Make
+        speakers:
+        - Tara Madhyastha
+        event_page: https://neurohackademy.org/course/advance-unix-and-make/
+        youtube_url: null
+      - time: 11:00am
+        title: Cython and numba
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/cython-and-numba/
+        youtube_url: null
+      - time: 1:00pm
+        title: Python tips and tricks
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/python-tips-and-tricks/
+        youtube_url: https://www.youtube.com/embed/dm2fNal3jdc?rel=0
+      - time: 1:00pm
+        title: Docker for scientists
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/docker-for-scientists/
+        youtube_url: https://www.youtube.com/embed/wAATYzn8O54?rel=0
+      - time: 1:00pm
+        title: Python programming
+        speakers:
+        - Valentina Staneva
+        event_page: https://neurohackademy.org/course/python-programming/
+        youtube_url: null
+      - time: 2:00pm
+        title: Modular Software Design
+        speakers:
+        - Jeremy Freeman
+        event_page: https://neurohackademy.org/course/modular-software-design/
+        youtube_url: https://www.youtube.com/embed/BSrQDt9ow-M?rel=0
+      - time: 3:00pm
+        title: Spark
+        speakers:
+        - Jeremy Freeman
+        event_page: https://neurohackademy.org/course/spark/
+        youtube_url: https://www.youtube.com/embed/iXpneR3FcF0?rel=0
+      - time: 3:00pm
+        title: Git and Github
+        speakers:
+        - Bernease Herman
+        event_page: https://neurohackademy.org/course/git-and-github/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Software Testing
+        speakers:
+        - Chris Gorgolewski
+        event_page: https://neurohackademy.org/course/software-testing/
+        youtube_url: null
+      - time: 6:00pm
+        title: Welcome reception
+        speakers: []
+        event_page: https://neurohackademy.org/course/welcome-reception/
+        youtube_url: null
+      Tuesday:
+      - time: 9:00am
+        title: Surviving and thriving as an open scientist
+        speakers:
+        - Tal Yarkoni
+        event_page: https://neurohackademy.org/course/surviving-and-thriving-as-an-open-scientist/
+        youtube_url: null
+      - time: 10:00am
+        title: Using cloud computing for neuroimaging
+        speakers:
+        - Cameron Craddock
+        event_page: https://neurohackademy.org/course/using-cloud-computing-for-neuroimaging/
+        youtube_url: null
+      - time: 1:00pm
+        title: Team project pitches
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-pitches/
+        youtube_url: null
+      - time: 2:00pm
+        title: Team project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-projects-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Allen Institute Datasets
+        speakers:
+        - Terri Gilbert
+        event_page: https://neurohackademy.org/course/allen-institute-datasets/
+        youtube_url: https://www.youtube.com/embed/4ccjScoDu_I?rel=0
+      - time: 5:00pm
+        title: Integrating Allen Institute Datasets with MRI data
+        speakers:
+        - Kirstie Whitaker
+        event_page: https://neurohackademy.org/course/integrating-allen-institute-datasets-with-mri-data/
+        youtube_url: https://www.youtube.com/embed/5-gd5lrcuHk?rel=0
+      Wednesday:
+      - time: 9:00am
+        title: Image processing
+        speakers:
+        - Ariel Rokem
+        event_page: https://neurohackademy.org/course/image-processing/
+        youtube_url: null
+      - time: 10:00am
+        title: Quantitative and diffusion MRI modeling of developmental data
+        speakers:
+        - Jason Yeatman
+        event_page: https://neurohackademy.org/course/quantitative-and-diffusion-mri-modeling-of-developmental-data/
+        youtube_url: null
+      - time: 1:00pm
+        title: Team project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-work/
+        youtube_url: null
+      - time: 3:00pm
+        title: Allen Institute RNAseq data
+        speakers:
+        - Jeremy Miller
+        event_page: https://neurohackademy.org/course/allen-institute-rnaseq-data/
+        youtube_url: https://www.youtube.com/embed/I_MPVcmkis4?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: Advanced time-series analysis
+        speakers:
+        - Bing Brunton
+        event_page: https://neurohackademy.org/course/advanced-time-series-analysis/
+        youtube_url: https://www.youtube.com/embed/dlWSa3Ftsfw?rel=0
+      Thursday:
+      - time: 9:00am
+        title: Modeling fMRI data
+        speakers:
+        - Kendrick Kay
+        event_page: https://neurohackademy.org/course/modeling-fmri-data/
+        youtube_url: https://www.youtube.com/embed/Lx1CwMOK3Lk?rel=0
+      - time: 10:00am
+        title: Machine learning with scikit-learn
+        speakers:
+        - Jake Vanderplas
+        event_page: https://neurohackademy.org/course/machine-learning-with-scikit-learn/
+        youtube_url: null
+      - time: 1:00pm
+        title: Team project work
+        speakers: []
+        event_page: https://neurohackademy.org/course/team-project-work-2/
+        youtube_url: null
+      - time: 3:00pm
+        title: Lightning talks
+        speakers: []
+        event_page: https://neurohackademy.org/course/lightning-talks/
+        youtube_url: https://www.youtube.com/embed/https://www.youtube.com/watch?v=4obqfkgI_jc?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 4:00pm
+        title: GNU Make for Neuroimaging Workflows
+        speakers:
+        - Tara Madhyastha
+        event_page: https://neurohackademy.org/course/gnu-make-for-neuroimaging-workflows/
+        youtube_url: https://www.youtube.com/embed/rTfyctDUce0?rel=0
+      Friday:
+      - time: 9:00am
+        title: Improving the Reproducibility of Neuroimaging Research
+        speakers:
+        - Russell Poldrack
+        event_page: https://neurohackademy.org/course/improving-the-reproducibility-of-neuroimaging-research/
+        youtube_url: https://www.youtube.com/embed/ypTw9isZFrg?rel=0
+      - time: 1:00pm
+        title: Project presentations
+        speakers: []
+        event_page: https://neurohackademy.org/course/project-presentations-2/
+        youtube_url: https://www.youtube.com/embed/2LZM0YBV72M?rel=0
+      - time: 3:00pm
+        title: Coffee break
+        speakers: []
+        event_page: https://neurohackademy.org/course/coffee-break-10/
+        youtube_url: null
+      - time: 6:00pm
+        title: Farewell party
+        speakers: []
+        event_page: https://neurohackademy.org/course/farewell-party/
+        youtube_url: null

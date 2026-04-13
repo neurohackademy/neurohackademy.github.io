@@ -1,0 +1,75 @@
+# Configuration ###############################################################
+#
+# This file contains the configuration for the Neurohackademy website!
+
+
+# The course contact email.
+# This is currently only listed on the code-of-conduct page as one of the ways
+# to report a CoC violation.
+contact:
+  name: Noah Benson
+  email: nben@uw.edu
+
+# The name used in the title of the webpage.
+title: The Neurohackademy
+
+# The base URL of the github IO page.
+# This should be the name of this github repository preceded by a /
+# character.
+# Since the neurohackademy.github.io/ website appears at the root of the
+# domain, ours is just "".
+baseurl: "/neurohackademy.github.io"
+
+# The path where static images are stored on the site.
+imgpath: static/images
+
+
+# The URL for this website (Used for Sitemap.xml).
+url: http://neurohackademy.github.io/
+
+# The theme we use:
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Enter a Google Analytics web tracking code (e.g. UA-2110908-2) to activate
+# tracking.
+google_analytics:
+
+
+# Static Configuration --------------------------------------------------------
+#
+# Don't change the items below this line unless you know what you're doing.
+
+permalink: /:title/
+
+# The release of Jekyll Now that you're using
+version: v4.4.1
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+#  - jekyll-remote-theme
+#  - jekyll-theme-cayman
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

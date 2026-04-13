@@ -1,0 +1,55 @@
+<div class="biocard biocard-{{include.size}}">
+  <div class="biocard-textdiv">
+    <div class="biocard-chunk">
+      {% if include.size == 'large' %}
+        <h1 class="biocard-name">{{include.fullname}}</h1>
+      {% else %}
+        <a href="{{ include.url | relative_url }}">
+          <p class="biocard-name">{{include.fullname}}</p>
+          </a>
+        {% endif %}
+      {% if include.pronouns %}
+        <p class="biocard-pronouns">{{include.pronouns}}</p>
+        {% endif %}
+      </div>
+    <div class="biocard-chunk">
+      {% if include.div %}
+        <p class="biocard-div">{{include.div}}</p>
+        {% endif %}
+      {% if include.org %}
+        <p class="biocard-org">{{include.org}}</p>
+        {% endif %}
+      </div>
+    <div class="biocard-links">
+      {% if include.email %}
+        <p class="biocard-link">
+          <a href="mailto:{{include.email}}">Email</a>
+          </p>
+        {% endif %}
+      {% if include.github %}
+        <p class="biocard-link">
+          <a href="https://github.com/{{include.github}}">GitHib</a>
+          </p>
+        {% endif %}
+      {% if include.website %}
+        <p class="biocard-link">
+          <a href="{{include.website}}">Website</a>
+          </p>
+        {% endif %}
+      </div>
+  </div>
+  <div class="biocard-photodiv">
+    <img 
+      {% if include.image %}
+        src="{{include.image}}"
+        alt="The profile picture for {{include.fullname}}"
+      {% elsif include.github %}
+        src="https://github.com/{{include.github}}.png"
+        alt="The GitHub profile picture for {{include.fullname}}"
+      {% else %}
+        src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"
+        alt="An anonymous profile picture"
+        {% endif %}
+      />
+    </div>
+  </div>
