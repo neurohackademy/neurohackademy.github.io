@@ -18,7 +18,7 @@ title: The Neurohackademy
 # character.
 # Since the neurohackademy.github.io/ website appears at the root of the
 # domain, ours is just "".
-baseurl: "/neurohackademy.github.io"
+baseurl: ""
 
 # The path where static images are stored on the site.
 imgpath: static/images
