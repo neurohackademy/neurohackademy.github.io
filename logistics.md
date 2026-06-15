@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # NeuroHackademy 2026 Logistics
 
 ---
