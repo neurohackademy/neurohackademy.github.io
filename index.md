@@ -36,18 +36,20 @@ collaboration sessions on topics of interest.
       {% assign fullname = page.forename | append: " " | append: page.surname %}
       <div class="splash-instructor-card">
         <div class="splash-instructor-card-photo">
-          <img
-            {% if page.image %}
-              src="{{page.image}}"
-              alt="The profile picture for {{fullname}}"
-            {% elsif page.github %}
-              src="https://github.com/{{page.github}}.png"
-              alt="The GitHub profile picture for {{fullname}}"
-            {% else %}
-              src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"
-              alt="An anonymous profile picture"
+          <a href="{{site.baseurl}}/{{page.url}}">
+            <img
+              {% if page.image %}
+                  src="{{page.image}}"
+                  alt="The profile picture for {{fullname}}"
+              {% elsif page.github %}
+                src="https://github.com/{{page.github}}.png"
+                alt="The GitHub profile picture for {{fullname}}"
+              {% else %}
+                src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg"
+                alt="An anonymous profile picture"
               {% endif %}
             />
+            </a>
           </div>
           <p><a href="{{site.baseurl}}/{{page.url}}">{{fullname}}</a></p>
         </div>
