@@ -844,14 +844,21 @@ nav {
     color: #FFFFFF;
     text-align: center;
 }
+.event-emptycell {
+    margin: 4px 0 4px 0 !important;
+    border-radius: 15px;
+    padding: 5px 3px 5px 3px;
+    text-align: center;
+}
 .event-time {
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 .event-title {
     margin-left: 6px;
-    margin: 2px 4px 2px 6px;
+    margin: 2px 4px 10px 6px;
+    line-height: 1.2;
     font-size: 14px;
     a {
       font-size: 14px;
@@ -861,6 +868,19 @@ nav {
     font-style: italic;
     font-size: 14px;
     margin: 2px 4px 2px 6px;
+    line-height: 1.2;
+}
+.eventstyle-lecture {
+    background: #341954;
+    color: #FFFFFF;
+}
+.eventstyle-break {
+    background: var(--border-color);
+    color: #000000;
+}
+.eventstyle-other {
+    background: var(--cap-bg-color);
+    color: #000000;
 }
 
 /* Accordion for calendars */
