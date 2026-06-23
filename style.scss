@@ -816,8 +816,8 @@ nav {
 .day-col {
     width: 18%;
     min-width: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
     padding: 4px;
     border-radius: 15px;
     text-align: left;
@@ -843,6 +843,7 @@ nav {
     background: #341954;
     color: #FFFFFF;
     text-align: center;
+    font-size: 12px;
 }
 .event-emptycell {
     margin: 4px 0 4px 0 !important;
@@ -851,24 +852,31 @@ nav {
     text-align: center;
 }
 .event-time {
-    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
 }
 .event-title {
     margin-left: 6px;
-    margin: 2px 4px 10px 6px;
-    line-height: 1.2;
-    font-size: 14px;
+    margin: 2px 4px 6px 6px;
+    line-height: 1.1;
     a {
       font-size: 14px;
-    }
+    };
 }
 .event-speakers {
     font-style: italic;
-    font-size: 14px;
     margin: 2px 4px 2px 6px;
     line-height: 1.2;
+}
+.event-altsep {
+    margin-left: 6px;
+    margin: 10px 4px 10px 6px;
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 400;
+    a {
+      font-size: 14px;
+    };
 }
 .eventstyle-lecture {
     background: #341954;
@@ -881,6 +889,23 @@ nav {
 .eventstyle-other {
     background: var(--cap-bg-color);
     color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  .week-row {
+      flex-direction: column;
+      max-height: none;
+      height: none;
+  }
+  .day-col {
+      flex: 1 1 100%;
+      width: 95%;
+      max-height: none;
+  }
+  .event-cell {
+      height: none;
+      font-size: 14px;
+  }
 }
 
 /* Accordion for calendars */

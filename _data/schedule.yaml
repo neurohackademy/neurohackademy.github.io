@@ -27,11 +27,14 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '(1) Intro to Python <br/> &mdash;OR&mdash; <br/> (2) Designing Libraries in Python'
+      title: 'Intro to Python'
       style: tutorial
       speakers:
-      - '(1) Kelly Chang'
-      - '(2) Ariel Rokem'
+      - Kelly Chang
+      alt:
+        title: 'Designing Libraries in Python'
+        speakers:
+        - Ariel Rokem
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -75,11 +78,14 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '(1) Introduction to Git and GitHub <br/> &mdash;OR&mdash; <br/> (2) Collaboration using Git'
+      title: 'Introduction to Git and GitHub'
       style: tutorial
       speakers:
-      - '(1) Noah C. Benson'
-      - '(2) Ariel Rokem'
+      - Noah C. Benson
+      alt:
+        title: 'Collaboration using Git'
+        speakers:
+        - Ariel Rokem
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -117,11 +123,14 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '(1) Machine Learning in Python <br/> &mdash;OR&mdash; <br/> (2) Deep Learning in Pytorch'
+      title: 'Machine Learning in Python'
       style: tutorial
       speakers:
-      - '(1) Ariel Rokem'
-      - '(2) Noah C. Benson'
+      - Ariel Rokem
+      alt:
+        title: 'Deep Learning in Pytorch'
+        speakers:
+        - Noah C. Benson
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -129,10 +138,12 @@ events:
       speakers: []
     - time: 3:30pm
       minutes: 90
-      title: '(1) Week 1 Group Projects: Work Time <br/> &mdash;OR&mdash; <br/> (2) Center for Human Neuroscience visit'
+      title: 'Week 1 Group Projects: Work Time'
       style: other
-      speakers:
-      - '(2) John Pyles'
+      alt:
+        title: 'Center for Human Neuroscience visit'
+        speakers:
+        - 'John Pyles'
     Thursday:
     - time: 9:00am
       minutes: 60
@@ -203,11 +214,14 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '(1) Python Ecosystem Control with uv <br/> &mdash;OR&mdash; <br/> (2) GitHub Actions'
+      title: 'Python Ecosystem Control with uv'
       style: lecture
       speakers:
-      - '(1) Don Setiawan'
-      - '(2) Serge Koudoro'
+      - Don Setiawan
+      alt:
+        title: 'Using GitHub Ecosystems to Your Advantage'
+        speakers:
+        - Serge Koudoro
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -231,22 +245,28 @@ events:
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 10:30am
+      title: Hacking
       minutes: 90
+      style: other
     - time: 12:00pm
       minutes: 90
       title: Lunch
       style: break
       speakers: []
-    - title:
+    - time: 1:30pm
+      title: Hacking
       minutes: 90
+      style: other
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 3:30pm
+      title: Hacking
       minutes: 90
+      style: other
     Tuesday:
     - time: 9:00am
       minutes: 60
@@ -258,22 +278,28 @@ events:
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 10:30am
+      title: Hacking
       minutes: 90
+      style: other
     - time: 12:00pm
       minutes: 90
       title: Lunch
       style: break
       speakers: []
-    - title:
+    - time: 1:30pm
+      title: Hacking
       minutes: 90
+      style: other
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 3:30pm
+      title: Hacking
       minutes: 90
+      style: other
     Wednesday:
     - time: 9:00am
       minutes: 60
@@ -285,8 +311,10 @@ events:
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 10:30am
+      title: Hacking
       minutes: 90
+      style: other
     - time: 12:00pm
       minutes: 90
       title: Lunch
@@ -301,8 +329,10 @@ events:
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 3:30pm
+      title: Hacking
       minutes: 90
+      style: other
     Thursday:
     - time: 9:00am
       minutes: 60
@@ -314,41 +344,53 @@ events:
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 10:30am
+      title: Hacking
       minutes: 90
+      style: other
     - time: 12:00pm
       minutes: 90
       title: Lunch
       style: break
       speakers: []
-    - title:
+    - time: 1:30pm
+      title: Hacking
       minutes: 90
+      style: other
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 3:30pm
+      title: Hacking
       minutes: 90
+      style: other
     Friday:
-    - title:
+    - time: 9:00am
+      title: Hacking
       minutes: 60
+      style: other
     - time: 10:00am
       minutes: 30
       title: Coffee Break
       style: break
       speakers: []
-    - title:
+    - time: 10:30am
+      title: Hacking
       minutes: 90
+      style: other
     - time: 12:00pm
       minutes: 90
       title: Lunch
       style: break
       speakers: []
-    - title:
-      minutes: 26.8
+    - time: 1:30pm
+      title: Final Practice
+      minutes: 28.25
+      style: other
     - time: 2:00pm
-      minutes: 60
+      minutes: 58.25
       title: Final Project Presentations
       style: lecture
       speakers: []
