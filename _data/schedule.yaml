@@ -27,11 +27,11 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: 'Intro to Python | Designing Libraries in Python'
+      title: '(1) Intro to Python <br/> &mdash;OR&mdash; <br/> (2) Designing Libraries in Python'
       style: tutorial
       speakers:
-      - Kelly Chang
-      - Ariel Rokem
+      - '(1) Kelly Chang'
+      - '(2) Ariel Rokem'
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -75,11 +75,11 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '[1] Introduction to Git and GitHub | [2] Collaboration using Git'
+      title: '(1) Introduction to Git and GitHub <br/> &mdash;OR&mdash; <br/> (2) Collaboration using Git'
       style: tutorial
       speakers:
-      - Noah C. Benson
-      - Ariel Rokem
+      - '(1) Noah C. Benson'
+      - '(2) Ariel Rokem'
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -117,11 +117,11 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '[1] Machine Learning in Python | [2] Deep Learning in Pytorch'
+      title: '(1) Machine Learning in Python <br/> &mdash;OR&mdash; <br/> (2) Deep Learning in Pytorch'
       style: tutorial
       speakers:
-      - Ariel Rokem
-      - Noah C. Benson
+      - '(1) Ariel Rokem'
+      - '(2) Noah C. Benson'
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
@@ -129,12 +129,10 @@ events:
       speakers: []
     - time: 3:30pm
       minutes: 90
-      title: '[1] Week 1 Group Projects: Work Time | [2] Center for Human Neuroscience visit'
+      title: '(1) Week 1 Group Projects: Work Time <br/> &mdash;OR&mdash; <br/> (2) Center for Human Neuroscience visit'
       style: other
       speakers:
-      - Noah C. Benson
-      - Ariel Rokem
-      - John Pyles
+      - '(2) John Pyles'
     Thursday:
     - time: 9:00am
       minutes: 60
@@ -205,11 +203,11 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: '[1] Python Ecosystem Control with uv | [2] GitHub Actions'
+      title: '(1) Python Ecosystem Control with uv <br/> &mdash;OR&mdash; <br/> (2) GitHub Actions'
       style: lecture
       speakers:
-      - Don Setiawan
-      - Serge Koudoro
+      - '(1) Don Setiawan'
+      - '(2) Serge Koudoro'
     - time: 3:00pm
       minutes: 30
       title: Coffee Break
