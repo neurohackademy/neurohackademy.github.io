@@ -1,0 +1,366 @@
+startdate: '2026-07-13'
+events:
+  week1:
+    Monday:
+    - time: 9:00am
+      minutes: 60
+      title: Welcome to the NeuroHackademy!
+      style: lecture
+      speakers:
+      - Noah C. Benson
+      - Ariel Rokem
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 10:30am
+      minutes: 90
+      title: 'Reproducibility in Cognitive Neuroscience: What is the Problem?'
+      style: lecture
+      speakers:
+      - Russell Poldrack
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - time: 1:30pm
+      minutes: 90
+      title: 'Intro to Python | Designing Libraries in Python'
+      style: tutorial
+      speakers:
+      - Kelly Chang
+      - Ariel Rokem
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 3:30pm
+      minutes: 90
+      title: 'Big Data, Small Data: Considerations for Modeling and Inference in
+        Neuroimaging'
+      style: lecture
+      speakers:
+      - John Van Horn
+    - time: 5:00pm
+      style: other
+      minutes: 90
+      title: 'Welcome Reception and Dinner'
+      speakers: []
+    Tuesday:
+    - time: 9:00am
+      minutes: 60
+      title: 'AI-assisted Programming'
+      style: lecture
+      speakers:
+      - Russell Poldrack
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 10:30am
+      minutes: 90
+      title: 'Week-1 Group Projects: Introduction'
+      style: lecture
+      speakers:
+      - Noah C. Benson
+      - Ariel Rokem
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - time: 1:30pm
+      minutes: 90
+      title: '[1] Introduction to Git and GitHub | [2] Collaboration using Git'
+      style: tutorial
+      speakers:
+      - Noah C. Benson
+      - Ariel Rokem
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 3:30pm
+      minutes: 90
+      title: 'Processing Neuroimaging Data: Analytical Flexibility Curse and Blessing and the Nipoppy Proposal'
+      style: lecture
+      speakers:
+      - J. B. Poline
+    Wednesday:
+    - time: 9:00am
+      minutes: 60
+      title: 'Week 1 Group Projects: Work Time'
+      style: other
+      speakers:
+      - Noah C. Benson
+      - Ariel Rokem
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 10:30am
+      minutes: 90
+      title: 'How to Be an Academic Scientist'
+      style: lecture
+      speakers:
+      - Kendrick Kay
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - time: 1:30pm
+      minutes: 90
+      title: '[1] Machine Learning in Python | [2] Deep Learning in Pytorch'
+      style: tutorial
+      speakers:
+      - Ariel Rokem
+      - Noah C. Benson
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 3:30pm
+      minutes: 90
+      title: '[1] Week 1 Group Projects: Work Time | [2] Center for Human Neuroscience visit'
+      style: other
+      speakers:
+      - Noah C. Benson
+      - Ariel Rokem
+      - John Pyles
+    Thursday:
+    - time: 9:00am
+      minutes: 60
+      title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
+      style: lecture
+      speakers:
+      - Timothy Brown
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 10:30am
+      minutes: 90
+      title: 'Overview of a Diffusion Imaging Pipeline Using DIPY'
+      style: lecture
+      speakers:
+      - Serge Koudoro
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - time: 1:30pm
+      minutes: 90
+      title: 'Studying Human Functional Brain Networks: Two Paths to Reliability'
+      style: lecture
+      speakers:
+      - Caterina Gratton
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 3:30pm
+      minutes: 90
+      title: 'Panel Discussion: Careers in Neuroimaging and Data Science'
+      style: lecture
+      speakers: []
+    - time: 5:00pm
+      minutes: 90
+      style: other
+      title: Networking and Pizza
+      speakers: []
+    Friday:
+    - time: 9:00am
+      minutes: 60
+      title: 'Dataset Showcase'
+      style: lecture
+      speakers:
+      - Noah C. Benson
+      - Ariel Rokem
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 10:30am
+      minutes: 90
+      title: 'Learning with Nilearn: Statistical Learning, Machine Learning, and Alignment Applications in fMRI'
+      style: lecture
+      speakers:
+      - Elizabeth DuPre
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - time: 1:30pm
+      minutes: 90
+      title: '[1] Python Ecosystem Control with uv | [2] GitHub Actions'
+      style: lecture
+      speakers:
+      - Don Setiawan
+      - Serge Koudoro
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 3:30pm
+      minutes: 90
+      title: "Good Practices in Developing Neuroimaging Biomarkers Based on Machine Learning Models"
+      style: lecture
+      speakers:
+      - Wani Woo
+  week2:
+    Monday:
+    - time: 9:00am
+      minutes: 60
+      title: Hackathon Pitches
+      style: lecture
+      speakers: []
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    Tuesday:
+    - time: 9:00am
+      minutes: 60
+      title: Stand-up
+      style: lecture
+      speakers: []
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    Wednesday:
+    - time: 9:00am
+      minutes: 60
+      title: Stand-up
+      style: lecture
+      speakers: []
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - time: 1:30pm
+      minutes: 90
+      title: Lightning talks
+      speakers: []
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    Thursday:
+    - time: 9:00am
+      minutes: 60
+      title: Stand-up
+      style: lecture
+      speakers: []
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    Friday:
+    - title:
+      minutes: 60
+    - time: 10:00am
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - title:
+      minutes: 90
+    - time: 12:00pm
+      minutes: 90
+      title: Lunch
+      style: break
+      speakers: []
+    - title:
+      minutes: 26.8
+    - time: 2:00pm
+      minutes: 60
+      title: Final Project Presentations
+      style: lecture
+      speakers: []
+    - time: 3:00pm
+      minutes: 30
+      title: Coffee Break
+      style: break
+      speakers: []
+    - time: 3:30pm
+      minutes: 90
+      style: lecture
+      title: Final Project Presentations
+      speakers: []
