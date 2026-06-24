@@ -351,6 +351,8 @@ img {
     top: 0px;
     z-index: 100;
     height: var(--masthead-height);
+    display: flex;
+    flex-direction: column;
 }
 @media (max-width: 700px) {
     .default-masthead { 
@@ -389,12 +391,12 @@ img {
     align-items: center;
     justify-content: space-between;
 }
-@media (max-width: 700) {
+@media (max-width: 700px) {
     .default-banner {
         font-size: 42px;
     }
 }
-@media (max-width: 450) {
+@media (max-width: 450px) {
     .default-banner {
         font-size: 36px;
     }
@@ -460,6 +462,7 @@ nav {
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: auto;
   
     /* @include mobile {
      *    float: none;
@@ -484,7 +487,7 @@ nav {
          */
     }
 }
-@media (max-width: 920px) {
+@media (max-width: 850px) {
   nav {
       font-size: 16px;
   }
