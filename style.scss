@@ -353,12 +353,12 @@ img {
     height: var(--masthead-height);
 }
 @media (max-width: 700px) {
-    .default-masthead{ 
+    .default-masthead { 
         height: var(--masthead-height-medium);
     }
 }
 @media (max-width: 450px) {
-    .default-masthead{ 
+    .default-masthead { 
         height: var(--masthead-height-small);
     }
 }
