@@ -78,20 +78,45 @@ h1 {
         color: inherit;
     }
 }
-
 h2 {
     font-weight: 500;
     font-size: 42px;
 }
-
 h3 {
     font-size: 36px;
     font-weight: 400;
 }
-
 h4 {
     font-size: 30px;
     font-weight: 350;
+}
+@media (max-width: 700px) {
+  h1 {
+      font-size: 24px;
+  }
+  h2 {
+      font-size: 20px;
+  }
+  h3 {
+      font-size: 16px;
+  }
+  h4 {
+      font-size: 14px;
+  }
+}
+@media (max-width: 450px) {
+  h1 {
+      font-size: 20px;
+  }
+  h2 {
+      font-size: 18px;
+  }
+  h3 {
+      font-size: 16px;
+  }
+  h4 {
+      font-size: 14px;
+  }
 }
 
 p {
@@ -226,6 +251,16 @@ img {
     transition: opacity 0.3s ease-out;
     opacity: 0;
 }
+@media (max-width: 700px) {
+  .splash-banner-logotext {
+      font-size: 48px;
+  }
+}
+@media (max-width: 450px) {
+  .splash-banner-logotext {
+      font-size: 34px;
+  }
+}
 .splash-banner {
     background-image: url('{{site.baseurl}}/{{site.imgpath}}/nh-brain-gold.png');
     background-repeat: no-repeat;
@@ -250,6 +285,16 @@ img {
     font-size: 48px;
     text-align: center;
     font-weight: 250;
+}
+@media (max-width: 700px) {
+    .splash-text {
+        font-size: 36px;
+    }
+}
+@media (max-width: 450px) {
+    .splash-text {
+        font-size: 18px;
+    }
 }
 .topanchor {
     scroll-margin-top: 40px;
@@ -330,7 +375,23 @@ img {
     float: center;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
+}
+@media (max-width: 700) {
+    .default-masthead {
+        height: 108px;
+    }
+    .default-banner {
+        font-size: 42px;
+    }
+}
+@media (max-width: 450) {
+    .default-masthead {
+        height: 96px;
+    }
+    .default-banner {
+        font-size: 36px;
+    }
 }
 
 
@@ -384,21 +445,23 @@ header {
 
 nav {
     font-family: $helveticaNeue;
-    font-size: 20pt;
+    font-size: 18pt;
     background-color: var(--menu-bg-color);
     color: var(--menu-fg-color);
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
   
-    @include mobile {
-        float: none;
-        margin-top: 0px;
-        display: block;
-        font-size: 16px;
-    }
+    /* @include mobile {
+     *    float: none;
+     *    margin-top: 0px;
+     *     display: block;
+     *     font-size: 16px;
+     * }
+     */
     
     a {
         margin-left: 20px;
@@ -406,16 +469,37 @@ nav {
         color: var(--menu-fg-color);
         text-align: center;
         font-weight: 300;
-        font-size: 18pt;
         letter-spacing: 1px;
         vertical-align: middle;
         
-        @include mobile {
-            margin: 0 15px;
-        }
+        /* @include mobile {
+         *     margin: 0 15px;
+         * }
+         */
     }
 }
-
+@media (max-width: 920px) {
+  nav {
+      font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  nav {
+      a {
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+  }
+}
+@media (max-width: 450px) {
+  nav {
+      font-size: 14px;
+      a {
+          margin-left: 10px;
+          margin-right: 10px;
+      }
+  }
+}
 
 /*
  * The content page / event and search stuff
@@ -636,7 +720,7 @@ nav {
 }
 
 .footer {
-  height: 160px;
+  height: 180px;
   width: 100%;
   margin-top: 0px;
   border-top: 3px solid var(--border-bg-color);
@@ -644,6 +728,11 @@ nav {
   background: var(--menu-bg-color);
   color: var(--menu-fg-color);
   font-size: 16px;
+}
+@media (max-width: 700px) {
+    .footer {
+        height: 300px;
+    }
 }
 .footer-col {
   height: 100%;
@@ -657,6 +746,7 @@ nav {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
 }
@@ -757,6 +847,40 @@ nav {
 .biocard-link {
     font-size: 28px;
     margin: 0 5px;
+}
+@media (max-width: 700px) {
+    .biocard-name {
+        font-size: 32px;
+    }
+    .biocard-pronouns {
+        font-size: 24px;
+    }
+    .biocard-div {
+        font-size: 28px;
+    }
+    .biocard-div {
+        font-size: 28px;
+    }
+    .biocard-link {
+        font-size: 22px;
+    }
+}
+@media (max-width: 450px) {
+    .biocard-name {
+        font-size: 20px;
+    }
+    .biocard-pronouns {
+        font-size: 14px;
+    }
+    .biocard-div {
+        font-size: 16px;
+    }
+    .biocard-org {
+        font-size: 16px;
+    }
+    .biocard-link {
+        font-size: 12px;
+    }
 }
 .biocard-small .biocard-photodiv {
     flex-grow: 0;
@@ -939,7 +1063,7 @@ nav {
   margin: 0;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   .accordion-header {
     font-size: 18pt;
     padding: 0.8rem;

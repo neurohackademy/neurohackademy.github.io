@@ -8,18 +8,18 @@ layout: splash
 both at the [University of Washington](https://www.washington.edu/) campus in
 Seattle and online each summer.**
 
-This year’s course will be held from July 13th&ndash;24th, 2026. Applications
-are [currently open](/apply) and will close on March 16th. Applicants will be
-notified of their application status by April 15th.
+Participants learn about technologies used to analyze human neuroscience data
+and how to make analysis and results shareable and reproducible. The first week
+of the program is devoted to hands-on lectures and open Q&A discussions. The
+second week of the course is devoted mostly to a hackathon in which
+participants form teams to implement a project based on what they've
+learned. Other participant-directed activities sych as breakout and/or
+collaboration sessions on topics of interest are also included during the
+second week.
 
-Participants will learn about technologies used to analyze human neuroscience
-data and to make analysis and results shareable and reproducible.
-
-The first week will be devoted to hands-on lectures and open Q&A
-discussions. The second week of the course will be devoted to a hackathon in
-which participants form teams to implement a project based on what they've
-learned and to other participant-directed activities: breakout sessions and
-collaboration sessions on topics of interest.
+See the [2026 schedule]({{site.baseurl}}/calendar) for this year's
+NeuroHackademy program and the [lecture archive]({{site.baseurl}}/archive) for
+recordings of past years' lectures.
 
 
 ## 2026 Instructors

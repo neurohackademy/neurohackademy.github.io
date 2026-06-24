@@ -61,15 +61,14 @@
   </body>
 
 <script>
-  const minHeight = 128;
+  const vpWidth = window.innerWidth;
+  const minHeight = (vpWidth > 700? 128 : vpWidth > 450? 102 : 96);
   let maxHeight = 0;
   let vanishHeight = 0;
   let dynamicDiv = null;
   let splashTxt = null;
   let splashLogoTxt = null;
   let splashBanner = null;
-  let initSize = null;
-  const endSize = 400;
   let scrollFn = () => {
     // Get the current scroll position.
     const currentScrollY = window.scrollY || window.pageYOffset;
