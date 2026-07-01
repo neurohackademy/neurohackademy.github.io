@@ -26,6 +26,7 @@ layout: default
 * Check out is by 10 am on Saturday, July 25th. There will be a room where you can store your luggage if your flight leaves later that day. 
 * Dorm guests are able to use their key cards to access any gyms on campus ([Fitness Center West](https://hfs.uw.edu/Fitness-Center-West) is close by). For off-campus activities, guests have easy access to the "Ave" (University Way NE), which has a number of restaurants, late-night activities and retail establishments. 
 * The dorms have coin-operated laundry facilities.
+* [This dorm info sheet]({{site.baseurl}}/static/UW-dorm-info-sheet.pdf) contains additional information about the facilities.
 
 ### LANDER HALL CONFERENCE DESK INFORMATION
 
