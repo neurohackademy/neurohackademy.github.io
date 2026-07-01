@@ -214,7 +214,7 @@ img {
  */
 
 .splash-masthead {
-    height: calc(100vh + var(--masthead-height));
+    height: calc(100dvh + var(--masthead-height));
     width: 100%;
     background-color: var(--cap-bg-color);
     color: var(--cap-fg-color);
@@ -222,6 +222,7 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
     /* sticky header */
     /*
     position: sticky;
@@ -232,7 +233,7 @@ img {
 .splash-banner-container {
     width: 940px;
     max-width: 100%;
-    height: 100vh;
+    height: 100dvh;
 }
 .splash-banner-logotext {
     color: var(--cap-fg-color);

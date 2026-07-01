@@ -69,18 +69,21 @@
   let splashTxt = null;
   let splashLogoTxt = null;
   let splashBanner = null;
+  let curHeight = null;
   let scrollFn = () => {
     // Get the current scroll position.
     const currentScrollY = window.scrollY || window.pageYOffset;
     const currentScrollX = window.scrollX || window.pageXOffset;
     // get the height of the div.
-    const curHeight = dynamicDiv.offsetHeight;
     const t = 1 - (curHeight - minHeight) / (maxHeight - minHeight);
     if (currentScrollY > 0) {
       if (curHeight > minHeight) {
         const h = Math.max(minHeight, curHeight - currentScrollY);
         dynamicDiv.style.height = h + 'px';
+        curHeight = h;
+        // Force recompute of height:
         window.scrollTo(currentScrollX, 0);
+        const dummy_h = dynamicDiv.style.height;
         const opac = (h - vanishHeight) / (maxHeight - vanishHeight);
         splashTxt.forEach((el) => {
           if (h <= vanishHeight) {
@@ -105,6 +108,7 @@
     splashBanner = document.getElementsByClassName('splash-banner')[0];
     splashLogoTxt = document.getElementsByClassName('splash-banner-logotext')[0];
     maxHeight = dynamicDiv.offsetHeight;
+    curHeight = maxHeight;
     vanishHeight = minHeight + (maxHeight - minHeight) * 0.4;
     splashTxt = document.querySelectorAll('.splash-text');
     window.addEventListener('scroll', scrollFn);
