@@ -214,14 +214,13 @@ img {
  */
 
 .splash-masthead {
-    height: calc(100dvh + var(--masthead-height));
+    //height: calc(100dvh + var(--masthead-height));
     width: 100%;
     background-color: var(--cap-bg-color);
     color: var(--cap-fg-color);
-    display: flex;
-    justify-content: flex-start;
-    //justify-content: space-between;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column;
 
     /* sticky header */

@@ -107,8 +107,9 @@
     dynamicDiv = document.getElementById('masthead');
     splashBanner = document.getElementsByClassName('splash-banner')[0];
     splashLogoTxt = document.getElementsByClassName('splash-banner-logotext')[0];
-    maxHeight = dynamicDiv.offsetHeight;
-    curHeight = parseFloat(dynamicDiv.style.height) || dynamicDiv.offsetHeight; //maxHeight;
+    maxHeight = window.innerHeight + 120;
+    dynamicDiv.style.height = maxHeight + 'px';
+    curHeight = maxHeight;
     vanishHeight = minHeight + (maxHeight - minHeight) * 0.4;
     splashTxt = document.querySelectorAll('.splash-text');
     window.addEventListener('scroll', scrollFn);
