@@ -42,8 +42,7 @@ events:
       speakers: []
     - time: 3:30pm
       minutes: 90
-      title: 'Big Data, Small Data: Considerations for Modeling and Inference in
-        Neuroimaging'
+      title: 'Digital Neural Organoids: Biologically-Inspired Learning Objects'
       style: lecture
       speakers:
       - John Van Horn
