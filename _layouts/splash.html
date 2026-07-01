@@ -80,10 +80,8 @@
       if (curHeight > minHeight) {
         const h = Math.max(minHeight, curHeight - currentScrollY);
         dynamicDiv.style.height = h + 'px';
-        dynamicDiv.getBoundingClientRect();
         curHeight = h;
         window.scrollTo(currentScrollX, 0);
-        // Force recompute of height:
         const opac = (h - vanishHeight) / (maxHeight - vanishHeight);
         splashTxt.forEach((el) => {
           if (h <= vanishHeight) {

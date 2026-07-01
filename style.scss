@@ -52,6 +52,7 @@ body {
     color: var(--fg-color);
     font-weight: 250;
     text-align: justify;
+    -webkit-overflow-scrolling: touch;
 }
 body b, body strong {
     color: var(--fg-color);
@@ -223,6 +224,10 @@ img {
     justify-content: space-between;
     flex-direction: column;
 
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: height;
+
     /* sticky header */
     /*
     position: sticky;
@@ -234,6 +239,8 @@ img {
     width: 940px;
     max-width: 100%;
     height: 100dvh;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 .splash-banner-logotext {
     color: var(--cap-fg-color);
