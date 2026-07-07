@@ -15,6 +15,7 @@ layout: default
 * Doors open at 8:30 am each morning (Monday-Friday). We will start the morning sessions at 9:00 am sharp.
 * Due to space limitations, only registered NeuroHackademy participants will be allowed to attend the tutorials and open working sessions.
 * Participants are expected to attend all scheduled NeuroHackademy activities. Contact an organizer if any circumstances prevent you from attending.
+* See also our [maps of the Alder Hall ground floor and the area around Alder Hall]({{site.baseurl}}/static/maps.pdf).
 
 ---
 
