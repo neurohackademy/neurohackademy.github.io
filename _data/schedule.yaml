@@ -218,7 +218,7 @@ events:
       speakers:
       - Don Setiawan
       alt:
-        title: 'Using GitHub Ecosystems to Your Advantage'
+        title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments'
         speakers:
         - Serge Koudoro
     - time: 3:00pm
