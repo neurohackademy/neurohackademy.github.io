@@ -213,12 +213,12 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: 'Python Ecosystem Control with uv'
+      title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments'
       style: lecture
       speakers:
       - Don Setiawan
       alt:
-        title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments'
+        title: 'Using GitHub Ecosystems to Your Advantage'
         speakers:
         - Serge Koudoro
     - time: 3:00pm
