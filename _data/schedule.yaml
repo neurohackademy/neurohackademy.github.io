@@ -403,3 +403,9 @@ events:
       style: lecture
       title: Final Project Presentations
       speakers: []
+    - time: 5:00pm
+      minutes: 90
+      style: other
+      title: Farewell Reception
+      speakers: []
+
