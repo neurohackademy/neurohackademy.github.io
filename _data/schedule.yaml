@@ -130,7 +130,7 @@ events:
         title: 'Machine Learning in Python (103)'
         speakers:
         - Ariel Rokem
-      - time: 3:00pm
+    - time: 3:00pm
       minutes: 30
       title: Coffee Break
       style: break
@@ -282,8 +282,9 @@ events:
       minutes: 90
       style: other
       alt:
-        title: CloudBank: free cloud computing resources!
-        speaker: Scott Henderson
+        title: 'CloudBank: free cloud computing resources!'
+        speakers:
+        - Scott Henderson
     - time: 12:00pm
       minutes: 90
       title: Lunch
