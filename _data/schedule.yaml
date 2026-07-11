@@ -27,12 +27,12 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: 'Intro to Python'
+      title: 'Intro to Python (Auditorium)'
       style: tutorial
       speakers:
       - Kelly Chang
       alt:
-        title: 'Designing Libraries in Python'
+        title: 'Designing Libraries in Python (103)'
         speakers:
         - Ariel Rokem
     - time: 3:00pm
@@ -77,12 +77,12 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: 'Introduction to Git and GitHub'
+      title: 'Introduction to Git and GitHub (Auditorium)'
       style: tutorial
       speakers:
       - Noah C. Benson
       alt:
-        title: 'Collaboration using Git'
+        title: 'Collaboration using Git (103)'
         speakers:
         - Ariel Rokem
     - time: 3:00pm
@@ -122,15 +122,15 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: 'Machine Learning in Python'
+      title: 'Deep Learning in Pytorch (Auditorium)'
       style: tutorial
       speakers:
-      - Ariel Rokem
+      - Noah C. Benson
       alt:
-        title: 'Deep Learning in Pytorch'
+        title: 'Machine Learning in Python (103)'
         speakers:
-        - Noah C. Benson
-    - time: 3:00pm
+        - Ariel Rokem
+      - time: 3:00pm
       minutes: 30
       title: Coffee Break
       style: break
@@ -213,12 +213,12 @@ events:
       speakers: []
     - time: 1:30pm
       minutes: 90
-      title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments'
+      title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments (Auditorium)'
       style: lecture
       speakers:
       - Don Setiawan
       alt:
-        title: 'Using GitHub Ecosystems to Your Advantage'
+        title: 'Using GitHub Ecosystems to Your Advantage (103)'
         speakers:
         - Serge Koudoro
     - time: 3:00pm
@@ -281,6 +281,9 @@ events:
       title: Hacking
       minutes: 90
       style: other
+      alt:
+        title: CloudBank: free cloud computing resources!
+        speaker: Scott Henderson
     - time: 12:00pm
       minutes: 90
       title: Lunch
