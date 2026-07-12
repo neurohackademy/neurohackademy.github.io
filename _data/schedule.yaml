@@ -92,7 +92,7 @@ events:
       speakers: []
     - time: 3:30pm
       minutes: 90
-      title: 'Processing Neuroimaging Data: Analytical Flexibility Curse and Blessing and the Nipoppy Proposal'
+      title: 'Where LLMs meet analytical flexibility and how neuroinformatic platforms and standards will change our work'
       style: lecture
       speakers:
       - J. B. Poline
