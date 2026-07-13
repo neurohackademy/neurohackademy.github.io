@@ -8,6 +8,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
+        youtube_url: https://youtu.be/wsJabb7ymBA
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -15,6 +16,7 @@
         title: 'Reproducibility in Cognitive Neuroscience: What is the Problem?'
         speakers:
         - Russell Poldrack
+        # youtube_url: 
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -22,10 +24,12 @@
         title: 'Intro to Python'
         speakers:
         - Kelly Chang
+        # youtube_url: 
       - time: 1:30pm
         title: 'Designing Libraries in Python'
         speakers:
-        - Kelly Chang
+        - Ariel Rokem
+        # youtube_url: 
       - time: 3:00pm
         title: Coffee Break
         speakers: []
@@ -33,6 +37,7 @@
         title: 'Digital Neural Organoids: Biologically-Inspired Learning Objects'
         speakers:
         - John Van Horn
+        # youtube_url: 
       - time: 5:00pm
         title: 'Welcome Reception and Dinner'
         speakers: []
