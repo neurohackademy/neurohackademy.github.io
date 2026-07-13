@@ -2,272 +2,272 @@
   startdate: '2026-07-13'
   events:
     week1:
-     Monday:
-     - time: 9:00am
-       title: Welcome to the NeuroHackademy!
-       speakers:
-       - Noah C. Benson
-       - Ariel Rokem
-     - time: 10:00am
-       title: Coffee Break
-       speakers: []
-     - time: 10:30am
-       title: 'Reproducibility in Cognitive Neuroscience: What is the Problem?'
-       speakers:
-       - Russell Poldrack
-     - time: 12:00pm
-       title: Lunch
-       speakers: []
-     - time: 1:30pm
-       title: 'Intro to Python'
-       speakers:
-       - Kelly Chang
-     - time: 1:30pm
-       title: 'Designing Libraries in Python'
-       speakers:
-       - Kelly Chang
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: 'Digital Neural Organoids: Biologically-Inspired Learning Objects'
-      speakers:
-      - John Van Horn
-    - time: 5:00pm
-      title: 'Welcome Reception and Dinner'
-      speakers: []
-    Tuesday:
-    - time: 9:00am
-      title: 'AI-assisted Programming'
-      speakers:
-      - Russell Poldrack
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: 'Week-1 Group Projects: Introduction'
-      speakers:
-      - Noah C. Benson
-      - Ariel Rokem
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: 'Introduction to Git and GitHub (Auditorium)'
-      speakers:
-      - Noah C. Benson
-    - time: 1:30pm
-      title: 'Collaboration using Git (103)'
-      speakers:
-      - Ariel Rokem
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: 'Where LLMs meet analytical flexibility and how neuroinformatic platforms and standards will change our work'
-      speakers:
-      - J. B. Poline
-    Wednesday:
-    - time: 9:00am
-      title: 'Week 1 Group Projects: Work Time'
-      speakers:
-      - Noah C. Benson
-      - Ariel Rokem
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: 'How to Be an Academic Scientist'
-      speakers:
-      - Kendrick Kay
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: 'Deep Learning in PyTorch'
-      speakers:
-      - Noah C. Benson
-    - time: 1:30pm
-      title: 'Machine Learning in Python'
-      speakers:
-      - Ariel Rokem
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: 'Week 1 Group Projects: Work Time'
-    - time: 3:30pm
-      title: 'Center for Human Neuroscience visit'
-      speakers:
-      - 'John Pyles'
-    Thursday:
-    - time: 9:00am
-      title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
-      speakers:
-      - Timothy Brown
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: 'Overview of a Diffusion Imaging Pipeline Using DIPY'
-      speakers:
-      - Serge Koudoro
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: 'Studying Human Functional Brain Networks: Two Paths to Reliability'
-      speakers:
-      - Caterina Gratton
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: 'Panel Discussion: Careers in Neuroimaging and Data Science'
-      speakers: []
-    - time: 5:00pm
-      title: Networking and Pizza
-      speakers: []
-    Friday:
-    - time: 9:00am
-      title: 'Dataset Showcase'
-      speakers:
-      - Noah C. Benson
-      - Ariel Rokem
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: 'Learning with Nilearn: Statistical Learning, Machine Learning, and Alignment Applications in fMRI'
-      speakers:
-      - Elizabeth DuPre
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments (Auditorium)'
-      speakers:
-      - Don Setiawan
-    - time: 1:30pm
-      title: 'Using GitHub Ecosystems to Your Advantage (103)'
-      speakers:
-      - Serge Koudoro
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: "Good Practices in Developing Neuroimaging Biomarkers Based on Machine Learning Models"
-      speakers:
-      - Wani Woo
-  week2:
-    Monday:
-    - time: 9:00am
-      title: Hackathon Pitches
-      speakers: []
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: Hacking
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: Hacking
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: Hacking
-    Tuesday:
-    - time: 9:00am
-      title: Stand-up
-      speakers: []
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: Hacking
-      speakers: []
-    - time: 10:30am
-      title: 'CloudBank: free cloud computing resources!'
-      speakers:
-      - Scott Henderson
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: Hacking
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: Hacking
-    Wednesday:
-    - time: 9:00am
-      title: Stand-up
-      speakers: []
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: Hacking
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: Lightning talks
-      speakers: []
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: Hacking
-    Thursday:
-    - time: 9:00am
-      title: Stand-up
-      speakers: []
-    - time: 10:00am
-      minutes: 30
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: Hacking
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: Hacking
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: Hacking
-    Friday:
-    - time: 9:00am
-      title: Hacking
-    - time: 10:00am
-      title: Coffee Break
-      speakers: []
-    - time: 10:30am
-      title: Hacking
-    - time: 12:00pm
-      title: Lunch
-      speakers: []
-    - time: 1:30pm
-      title: Final Practice
-    - time: 2:00pm
-      title: Final Project Presentations I
-      speakers: []
-    - time: 3:00pm
-      title: Coffee Break
-      speakers: []
-    - time: 3:30pm
-      title: Final Project Presentations II
-      speakers: []
-    - time: 5:00pm
-      title: Farewell Reception
-      speakers: []
+      Monday:
+      - time: 9:00am
+        title: Welcome to the NeuroHackademy!
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: 'Reproducibility in Cognitive Neuroscience: What is the Problem?'
+        speakers:
+        - Russell Poldrack
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: 'Intro to Python'
+        speakers:
+        - Kelly Chang
+      - time: 1:30pm
+        title: 'Designing Libraries in Python'
+        speakers:
+        - Kelly Chang
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: 'Digital Neural Organoids: Biologically-Inspired Learning Objects'
+        speakers:
+        - John Van Horn
+      - time: 5:00pm
+        title: 'Welcome Reception and Dinner'
+        speakers: []
+      Tuesday:
+      - time: 9:00am
+        title: 'AI-assisted Programming'
+        speakers:
+        - Russell Poldrack
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: 'Week-1 Group Projects: Introduction'
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: 'Introduction to Git and GitHub (Auditorium)'
+        speakers:
+        - Noah C. Benson
+      - time: 1:30pm
+        title: 'Collaboration using Git (103)'
+        speakers:
+        - Ariel Rokem
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: 'Where LLMs meet analytical flexibility and how neuroinformatic platforms and standards will change our work'
+        speakers:
+        - J. B. Poline
+      Wednesday:
+      - time: 9:00am
+        title: 'Week 1 Group Projects: Work Time'
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: 'How to Be an Academic Scientist'
+        speakers:
+        - Kendrick Kay
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: 'Deep Learning in PyTorch'
+        speakers:
+        - Noah C. Benson
+      - time: 1:30pm
+        title: 'Machine Learning in Python'
+        speakers:
+        - Ariel Rokem
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: 'Week 1 Group Projects: Work Time'
+      - time: 3:30pm
+        title: 'Center for Human Neuroscience visit'
+        speakers:
+        - 'John Pyles'
+      Thursday:
+      - time: 9:00am
+        title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
+        speakers:
+        - Timothy Brown
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: 'Overview of a Diffusion Imaging Pipeline Using DIPY'
+        speakers:
+        - Serge Koudoro
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: 'Studying Human Functional Brain Networks: Two Paths to Reliability'
+        speakers:
+        - Caterina Gratton
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: 'Panel Discussion: Careers in Neuroimaging and Data Science'
+        speakers: []
+      - time: 5:00pm
+        title: Networking and Pizza
+        speakers: []
+      Friday:
+      - time: 9:00am
+        title: 'Dataset Showcase'
+        speakers:
+        - Noah C. Benson
+        - Ariel Rokem
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: 'Learning with Nilearn: Statistical Learning, Machine Learning, and Alignment Applications in fMRI'
+        speakers:
+        - Elizabeth DuPre
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments (Auditorium)'
+        speakers:
+        - Don Setiawan
+      - time: 1:30pm
+        title: 'Using GitHub Ecosystems to Your Advantage (103)'
+        speakers:
+        - Serge Koudoro
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: "Good Practices in Developing Neuroimaging Biomarkers Based on Machine Learning Models"
+        speakers:
+        - Wani Woo
+    week2:
+      Monday:
+      - time: 9:00am
+        title: Hackathon Pitches
+        speakers: []
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: Hacking
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: Hacking
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: Hacking
+      Tuesday:
+      - time: 9:00am
+        title: Stand-up
+        speakers: []
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: Hacking
+        speakers: []
+      - time: 10:30am
+        title: 'CloudBank: free cloud computing resources!'
+        speakers:
+        - Scott Henderson
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: Hacking
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: Hacking
+      Wednesday:
+      - time: 9:00am
+        title: Stand-up
+        speakers: []
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: Hacking
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: Lightning talks
+        speakers: []
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: Hacking
+      Thursday:
+      - time: 9:00am
+        title: Stand-up
+        speakers: []
+      - time: 10:00am
+        minutes: 30
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: Hacking
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: Hacking
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: Hacking
+      Friday:
+      - time: 9:00am
+        title: Hacking
+      - time: 10:00am
+        title: Coffee Break
+        speakers: []
+      - time: 10:30am
+        title: Hacking
+      - time: 12:00pm
+        title: Lunch
+        speakers: []
+      - time: 1:30pm
+        title: Final Practice
+      - time: 2:00pm
+        title: Final Project Presentations I
+        speakers: []
+      - time: 3:00pm
+        title: Coffee Break
+        speakers: []
+      - time: 3:30pm
+        title: Final Project Presentations II
+        speakers: []
+      - time: 5:00pm
+        title: Farewell Reception
+        speakers: []
 '2025':
   startdate: '2025-01-01'
   events:
