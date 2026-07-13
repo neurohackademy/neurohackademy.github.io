@@ -46,6 +46,7 @@
         title: 'AI-assisted Programming'
         speakers:
         - Russell Poldrack
+        # youtube_url:
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -54,6 +55,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
+        # youtube_url:
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -61,10 +63,12 @@
         title: 'Introduction to Git and GitHub (Auditorium)'
         speakers:
         - Noah C. Benson
+        # youtube_url:
       - time: 1:30pm
         title: 'Collaboration using Git (103)'
         speakers:
         - Ariel Rokem
+        # youtube_url:
       - time: 3:00pm
         title: Coffee Break
         speakers: []
@@ -72,6 +76,7 @@
         title: 'Where LLMs meet analytical flexibility and how neuroinformatic platforms and standards will change our work'
         speakers:
         - J. B. Poline
+        # youtube_url:
       Wednesday:
       - time: 9:00am
         title: 'Week 1 Group Projects: Work Time'
@@ -85,6 +90,7 @@
         title: 'How to Be an Academic Scientist'
         speakers:
         - Kendrick Kay
+        # youtube_url:
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -92,10 +98,12 @@
         title: 'Deep Learning in PyTorch'
         speakers:
         - Noah C. Benson
+        # youtube_url:
       - time: 1:30pm
         title: 'Machine Learning in Python'
         speakers:
         - Ariel Rokem
+        # youtube_url:
       - time: 3:00pm
         title: Coffee Break
         speakers: []
