@@ -1,3 +1,14 @@
+#'2026':
+#  startdate: '2026-07-13'
+#  events:
+#   week1:
+#    Monday:
+#    - time: 9:00am
+#      title: Welcome to the NeuroHackademy!
+#      speakers:
+#      - Noah C. Benson
+#      - Ariel Rokem
+#      youtube_url: 
 '2025':
   startdate: '2025-01-01'
   events:
