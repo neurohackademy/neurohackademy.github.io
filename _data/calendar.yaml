@@ -24,7 +24,7 @@
         title: 'Intro to Python'
         speakers:
         - Kelly Chang
-        # youtube_url: 
+        youtube_url: https://youtu.be/avqKITC23m4
       - time: 1:30pm
         title: 'Designing Libraries in Python'
         speakers:
