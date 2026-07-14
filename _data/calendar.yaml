@@ -68,7 +68,7 @@
         title: 'Collaboration using Git (103)'
         speakers:
         - Ariel Rokem
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/ohVIIdzVUKs?si=9QIYrRafIvgVQY3m
       - time: 3:00pm
         title: Coffee Break
         speakers: []
