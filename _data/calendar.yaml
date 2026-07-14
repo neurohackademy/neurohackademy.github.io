@@ -46,7 +46,7 @@
         title: 'AI-assisted Programming'
         speakers:
         - Russell Poldrack
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/30hIc9muYlE?si=5aP4JcrgacWmWXLj
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -55,7 +55,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/-OdS6fRfF9U?si=JqWMhupHSYb-hOWn
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -63,7 +63,7 @@
         title: 'Introduction to Git and GitHub (Auditorium)'
         speakers:
         - Noah C. Benson
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/2x7iBavxY8k?si=p_EDvVucuMvftn7e
       - time: 1:30pm
         title: 'Collaboration using Git (103)'
         speakers:
