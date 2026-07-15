@@ -76,7 +76,7 @@
         title: 'Where LLMs meet analytical flexibility and how neuroinformatic platforms and standards will change our work'
         speakers:
         - J. B. Poline
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/dTMIwEcr6CU?si=g5-oFf6NMssGfJaz
       Wednesday:
       - time: 9:00am
         title: 'Week 1 Group Projects: Work Time'
