@@ -8,6 +8,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
+        youtube_url: https://www.youtube.com/embed/wsJabb7ymBA?si=Qwe8A-cHSuygKELX
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -15,6 +16,7 @@
         title: 'Reproducibility in Cognitive Neuroscience: What is the Problem?'
         speakers:
         - Russell Poldrack
+        youtube_url: https://www.youtube.com/embed/Gto8Y8KRBLA?si=Yaui3ms5BcH1XDmL
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -22,10 +24,12 @@
         title: 'Intro to Python'
         speakers:
         - Kelly Chang
+        youtube_url: https://www.youtube.com/embed/avqKITC23m4?si=nNnmDqP0SOW4I3oi
       - time: 1:30pm
         title: 'Designing Libraries in Python'
         speakers:
-        - Kelly Chang
+        - Ariel Rokem
+        youtube_url: https://www.youtube.com/embed/TfT-O7Eg12U?si=jCZPncuisHXsvV3y
       - time: 3:00pm
         title: Coffee Break
         speakers: []
@@ -33,6 +37,7 @@
         title: 'Digital Neural Organoids: Biologically-Inspired Learning Objects'
         speakers:
         - John Van Horn
+        youtube_url: https://www.youtube.com/embed/S6f4pDo6Gio?si=0afD29bpXVm2OB87
       - time: 5:00pm
         title: 'Welcome Reception and Dinner'
         speakers: []
@@ -41,6 +46,7 @@
         title: 'AI-assisted Programming'
         speakers:
         - Russell Poldrack
+        youtube_url: https://www.youtube.com/embed/30hIc9muYlE?si=5aP4JcrgacWmWXLj
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -49,6 +55,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
+        youtube_url: https://www.youtube.com/embed/-OdS6fRfF9U?si=JqWMhupHSYb-hOWn
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -56,10 +63,12 @@
         title: 'Introduction to Git and GitHub (Auditorium)'
         speakers:
         - Noah C. Benson
+        youtube_url: https://www.youtube.com/embed/2x7iBavxY8k?si=p_EDvVucuMvftn7e
       - time: 1:30pm
         title: 'Collaboration using Git (103)'
         speakers:
         - Ariel Rokem
+        youtube_url: https://www.youtube.com/embed/ohVIIdzVUKs?si=9QIYrRafIvgVQY3m
       - time: 3:00pm
         title: Coffee Break
         speakers: []
@@ -67,6 +76,7 @@
         title: 'Where LLMs meet analytical flexibility and how neuroinformatic platforms and standards will change our work'
         speakers:
         - J. B. Poline
+        youtube_url: https://www.youtube.com/embed/dTMIwEcr6CU?si=g5-oFf6NMssGfJaz
       Wednesday:
       - time: 9:00am
         title: 'Week 1 Group Projects: Work Time'
@@ -80,6 +90,7 @@
         title: 'How to Be an Academic Scientist'
         speakers:
         - Kendrick Kay
+        youtube_url: https://www.youtube.com/embed/r5v-zcssc1Y?si=6mQzy_C9XQKNaRgW
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -87,10 +98,12 @@
         title: 'Deep Learning in PyTorch'
         speakers:
         - Noah C. Benson
+        youtube_url: https://www.youtube.com/embed/T4qkF9Dff1E?si=OxI-vCpYftym626H
       - time: 1:30pm
         title: 'Machine Learning in Python'
         speakers:
         - Ariel Rokem
+        youtube_url: https://www.youtube.com/embed/8v8Onm7bw7o?si=RhxgZwsU_QFqSBvr
       - time: 3:00pm
         title: Coffee Break
         speakers: []
