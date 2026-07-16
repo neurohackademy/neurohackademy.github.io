@@ -90,7 +90,7 @@
         title: 'How to Be an Academic Scientist'
         speakers:
         - Kendrick Kay
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/r5v-zcssc1Y?si=6mQzy_C9XQKNaRgW
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -98,12 +98,12 @@
         title: 'Deep Learning in PyTorch'
         speakers:
         - Noah C. Benson
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/T4qkF9Dff1E?si=OxI-vCpYftym626H
       - time: 1:30pm
         title: 'Machine Learning in Python'
         speakers:
         - Ariel Rokem
-        # youtube_url:
+        youtube_url: https://www.youtube.com/embed/8v8Onm7bw7o?si=RhxgZwsU_QFqSBvr
       - time: 3:00pm
         title: Coffee Break
         speakers: []
