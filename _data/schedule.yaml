@@ -101,9 +101,6 @@ events:
       minutes: 60
       title: 'Week 1 Group Projects: Work Time'
       style: other
-      speakers:
-      - Noah C. Benson
-      - Ariel Rokem
     - time: 10:00am
       minutes: 30
       title: Coffee Break
@@ -145,24 +142,28 @@ events:
         - 'John Pyles'
     Thursday:
     - time: 9:00am
+      minutes: 30
+      style: other
+      title: "Week 1 Group Prohects: Work Time"
+    - time: 9:30am
       minutes: 60
       title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
       style: lecture
       speakers:
       - Timothy Brown
-    - time: 10:00am
-      minutes: 30
+    - time: 10:30am
+      minutes: 28.5
       title: Coffee Break
       style: break
       speakers: []
-    - time: 10:30am
-      minutes: 90
+    - time: 11:00am
+      minutes: 88.5
       title: 'Overview of a Diffusion Imaging Pipeline Using DIPY'
       style: lecture
       speakers:
       - Serge Koudoro
-    - time: 12:00pm
-      minutes: 90
+    - time: 12:30pm
+      minutes: 60
       title: Lunch
       style: break
       speakers: []
