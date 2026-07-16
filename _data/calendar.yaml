@@ -114,18 +114,18 @@
         speakers:
         - 'John Pyles'
       Thursday:
-      - time: 9:00am
+      - time: 9:30am
         title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
         speakers:
         - Timothy Brown
-      - time: 10:00am
+      - time: 10:30am
         title: Coffee Break
         speakers: []
-      - time: 10:30am
+      - time: 11:00am
         title: 'Overview of a Diffusion Imaging Pipeline Using DIPY'
         speakers:
         - Serge Koudoro
-      - time: 12:00pm
+      - time: 12:30pm
         title: Lunch
         speakers: []
       - time: 1:30pm
