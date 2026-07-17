@@ -141,7 +141,7 @@
       - time: 3:30pm
         title: 'Panel Discussion: Careers in Neuroimaging and Data Science'
         speakers: []
-        # youtube_url: 
+        youtube_url: https://www.youtube.com/embed/ilIbOgPDLrc?si=u5Cec8t-vjhjCXRH
       - time: 5:00pm
         title: Networking and Pizza
         speakers: []
