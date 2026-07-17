@@ -151,7 +151,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
-        # youtube_url: 
+        youtube_url: ttps://www.youtube.com/embed/uWnkLIjVujg?si=6w2iUkyTuzyxIcYy
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -159,7 +159,7 @@
         title: 'Learning with Nilearn: Statistical Learning, Machine Learning, and Alignment Applications in fMRI'
         speakers:
         - Elizabeth DuPre
-        # youtube_url: 
+        youtube_url: https://www.youtube.com/embed/1b22JthL7dU?si=Og3ZBcQc-MtZM8Da
       - time: 12:00pm
         title: Lunch
         speakers: []
