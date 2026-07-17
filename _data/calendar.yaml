@@ -151,7 +151,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
-        youtube_url: ttps://www.youtube.com/embed/uWnkLIjVujg?si=6w2iUkyTuzyxIcYy
+        youtube_url: https://www.youtube.com/embed/uWnkLIjVujg?si=P856rBBpCjxDJVF6
       - time: 10:00am
         title: Coffee Break
         speakers: []
