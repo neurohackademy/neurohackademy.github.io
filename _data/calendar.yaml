@@ -167,7 +167,7 @@
         title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments (Auditorium)'
         speakers:
         - Don Setiawan
-        # youtube_url: 
+        youtube_url: https://www.youtube.com/embed/TrGj3O1y2cM?si=nPJiwi9LOCvN30sM
       - time: 1:30pm
         title: 'Using GitHub Ecosystems to Your Advantage (103)'
         speakers:
@@ -175,12 +175,12 @@
       - time: 3:00pm
         title: Coffee Break
         speakers: []
-        # youtube_url: 
+        youtube_url: https://www.youtube.com/embed/imuwWODd9TA?si=Xwsbt98MXTaeHoe-
       - time: 3:30pm
         title: "Good Practices in Developing Neuroimaging Biomarkers Based on Machine Learning Models"
         speakers:
         - Wani Woo
-        # youtube_url: 
+        youtube_url: https://www.youtube.com/embed/_8JPgzqzmPo?si=-LGcyVJX0Ub_Fxqb
     week2:
       Monday:
       - time: 9:00am
