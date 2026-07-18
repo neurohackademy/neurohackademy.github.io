@@ -7,5 +7,6 @@ div: Luddy School of Engineering
 github: skoudoro
 website: https://sergekoudoro.com/
 role: instructor
+lastyear: 2026
 ---
 
