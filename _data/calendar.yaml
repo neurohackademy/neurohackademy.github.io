@@ -118,6 +118,7 @@
         title: 'Building a Brain Map: Ethical Issues on the Frontier of Neuroscience'
         speakers:
         - Timothy Brown
+        youtube_url: https://www.youtube.com/embed/zrsVMri-Jx0?si=dCp4eAN7LyrlBVaM
       - time: 10:30am
         title: Coffee Break
         speakers: []
@@ -125,6 +126,7 @@
         title: 'Overview of a Diffusion Imaging Pipeline Using DIPY'
         speakers:
         - Serge Koudoro
+        youtube_url: https://www.youtube.com/embed/x52HPV1O7ak?si=ngWCFjCzdLdhAqFt
       - time: 12:30pm
         title: Lunch
         speakers: []
@@ -132,12 +134,14 @@
         title: 'Studying Human Functional Brain Networks: Two Paths to Reliability'
         speakers:
         - Caterina Gratton
+        youtube_url: https://www.youtube.com/embed/98gjZ61aOLI?si=yrbqKsFuybQ0wEPP
       - time: 3:00pm
         title: Coffee Break
         speakers: []
       - time: 3:30pm
         title: 'Panel Discussion: Careers in Neuroimaging and Data Science'
         speakers: []
+        youtube_url: https://www.youtube.com/embed/ilIbOgPDLrc?si=u5Cec8t-vjhjCXRH
       - time: 5:00pm
         title: Networking and Pizza
         speakers: []
@@ -147,6 +151,7 @@
         speakers:
         - Noah C. Benson
         - Ariel Rokem
+        youtube_url: https://www.youtube.com/embed/uWnkLIjVujg?si=P856rBBpCjxDJVF6
       - time: 10:00am
         title: Coffee Break
         speakers: []
@@ -154,6 +159,7 @@
         title: 'Learning with Nilearn: Statistical Learning, Machine Learning, and Alignment Applications in fMRI'
         speakers:
         - Elizabeth DuPre
+        youtube_url: https://www.youtube.com/embed/1b22JthL7dU?si=Og3ZBcQc-MtZM8Da
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -161,10 +167,12 @@
         title: 'Managing Python Projects with Pixi: From Zero to Reproducible Environments (Auditorium)'
         speakers:
         - Don Setiawan
+        youtube_url: https://www.youtube.com/embed/TrGj3O1y2cM?si=nPJiwi9LOCvN30sM
       - time: 1:30pm
         title: 'Using GitHub Ecosystems to Your Advantage (103)'
         speakers:
         - Serge Koudoro
+        youtube_url: https://www.youtube.com/embed/imuwWODd9TA?si=fpESLqaZM2TQvtbN
       - time: 3:00pm
         title: Coffee Break
         speakers: []
@@ -172,11 +180,13 @@
         title: "Good Practices in Developing Neuroimaging Biomarkers Based on Machine Learning Models"
         speakers:
         - Wani Woo
+        youtube_url: https://www.youtube.com/embed/_8JPgzqzmPo?si=-LGcyVJX0Ub_Fxqb
     week2:
       Monday:
       - time: 9:00am
         title: Hackathon Pitches
         speakers: []
+        # youtube_url: 
       - time: 10:00am
         title: Coffee Break
         speakers: []
