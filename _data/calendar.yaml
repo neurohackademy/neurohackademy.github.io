@@ -186,7 +186,7 @@
       - time: 9:00am
         title: Hackathon Pitches
         speakers: []
-        # youtube_url: 
+        youtube_url: https://www.youtube.com/embed/oRssR3Vv8ug?si=kuck0HsCVoInIref
       - time: 10:00am
         title: Coffee Break
         speakers: []
