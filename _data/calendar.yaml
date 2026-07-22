@@ -216,6 +216,7 @@
         title: 'CloudBank: free cloud computing resources!'
         speakers:
         - Scott Henderson
+        youtube_url: https://www.youtube.com/embed/ACRhXuumUYo?si=xRLZ2EXXBW6ThpBf
       - time: 12:00pm
         title: Lunch
         speakers: []
@@ -224,6 +225,11 @@
       - time: 3:00pm
         title: Coffee Break
         speakers: []
+      - time: 3:00pm
+        title: 'Break Out Session: Object oriented programming'
+        speakers:
+        - Noah Benson
+        youtube_url: https://www.youtube.com/embed/fNUnDbOwQL4?si=ZiRg4rNQePaq77jN
       - time: 3:30pm
         title: Hacking
       Wednesday:
